@@ -1,0 +1,19 @@
+.wc-action-button-approval-waiting::after {
+	font-family: woocommerce !important; content: "\e012" !important; color:#f39c12;
+}
+.wc-action-button-approved::after {
+	font-family: woocommerce !important; content: "\e015" !important; color:#27ae60;
+}
+.wc-action-button-rejected::after {
+	font-family: woocommerce !important; content: "\e013" !important; color:#c0392b;
+}
+
+.order-status.status-approval-waiting {
+	color: #f39c12; background: #fcebcf; 
+}
+.order-status.status-approved {
+	color: #27ae60; background: #c1f1d5; 
+}
+.order-status.status-rejected {
+	color: #c0392b; background: #f1c5c1; 
+}

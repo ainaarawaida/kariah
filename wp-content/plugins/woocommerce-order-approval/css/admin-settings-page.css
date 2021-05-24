@@ -1,0 +1,29 @@
+/* //rplc: wcoa */
+.wcoa_error_message {
+	display: block;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-top: 10px;
+	font-size: 18px;
+}
+ul {
+	list-style: disc;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.wcoa_master_related {
+	border: 1px solid #dedede;
+	padding: 20px;
+}
+/* Select 2 */
+.select2-container
+{
+	width: 100% !important;
+}
+li.select2-results__option
+{
+	cursor: pointer !important;
+}
+
+

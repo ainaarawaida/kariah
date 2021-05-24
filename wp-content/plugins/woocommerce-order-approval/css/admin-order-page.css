@@ -1,0 +1,23 @@
+#wcoa_approval_area
+{/* 
+	display: block;
+	margin-top: 10px;
+	float: left;
+	border: 1px solid
+	#dedede;
+	padding: 15px;
+	width: 98%; */
+
+}
+
+#wcoa_approval_area label
+{
+	font-weight: bold;
+	margin-top: 25px;
+	display: block;
+}
+#wcoa_datetime_picker
+{
+	min-width: 150px;
+	/* margin-top: 5px; */
+}

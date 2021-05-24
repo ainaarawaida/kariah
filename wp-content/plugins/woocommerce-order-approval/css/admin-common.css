@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/* //rplc: wcoa */
+.white-box 
+{
+	background-color: white;
+	/* box-shadow: 2px 5px 10px; */
+	box-shadow: 1px 1px 2px;
+	padding: 15px 15px 15px 15px;
+	overflow: auto;
+}
+.wcoa_inline_block
+{
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 3px;	
+}
+label
+{
+	display:block;
+	clear:both;
+	font-weight:bold;
+}
+.wcoa_option_group
+{
+	display: inline-block;
+	background: #f8f8f8;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	margin-right: 10px;
+	/* max-width: 700px; */
+	vertical-align: top;
+}
+.wcoa_spacer
+{
+	height: 1px;
+    display: block;
+}
+.wcoa_one_third
+{
+	width: 30%;
+}
+.wcoa_half
+{
+	width: 45%;
+}
+.wcoa_full
+{
+	width: 93%;
+}
+.wcoa_display_block
+{
+	display:block;
+}
+.wcoa_company_option_description
+{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.wcoa_general_option_description
+{
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-right: 20px;
+}
+.wcoa_no_margin_top
+{
+	margin-top: 0px !important;
+}
+.wcoa_section_title 
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	padding: 7px;
+	color: white;
+	background: #efefef;
+	color: #96588a;
+	padding: 10px;
+	border-radius: 3px;
+}
+.wcoa_checkbox_container
+{
+	display: inline-block;
+	width: 260px;
+	font-weight: bold;
+}
+.wcoa_currency_checkbox_text
+{
+	font-size: 12px;
+}
+.wcoa_input_label
+{
+	margin-bottom: 5px;
+	display: block;
+}
+.wcoa_label
+{
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 5px;
+}
+.wcoa_email_message
+{
+	display: block;
+	width: 400px;
+	height: 150px;	
+}
+.wcoa_message_container
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	vertical-align: top;
+	/* float: left; */
+}
+
+input.wcoa_input_number
+{
+	border-radius: 15px;
+	border: none;
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
+}
+input.wcoa_input_text
+{
+	width: 350px;
+	
+	border-radius: 15px;
+	border: none;
+	/* background: #fbfbfb; */
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
+}
+#wcoa_messages_container
+{
+	display: block;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.wcoa_checkbox_container_auto_width
+{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+}
+label 
+{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+h3 
+{
+	font-size: 1.8em;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #96588a;
+	display: block;
+	clear: both;
+	/* border-top: 1px #e4e4e4 solid;
+	padding-top: 20px; */
+}
+h4 {
+	font-size: 1.4em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #96588a;
+	display: block;
+	clear: both;
+}
+h5 {
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #96588a;
+	display: block;
+	clear: both;
+}
+.white-box p, .white-box li, #wcoa_shortcode_container
+{
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	/* line-height: 1.6;  */
+}
+.wcoa_info
+{
+	padding: 20px;
+	border: 1px solid #96588a;
+	border-radius: 3px;
+	margin-bottom: 60px;
+}
+.wcoa_info p
+{
+	/* text-align: center; */
+}
+.wcoa_info h3
+{
+	font-style: italic;
+	margin-top: 0px;
+}
+/* Default UI Override */
+.wp-core-ui .button-primary:hover {
+	background: #C9A3C1 none repeat scroll 0 0;
+	border-color: #C9A3C1;
+	box-shadow: none;
+	font-weight: bold;
+}
+ .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary[disabled]
+{
+	background: #ecc8e5 !important;
+	border-color: #ecc8e5 !important;
+	color: #f8f6f7 !important;
+}
+.wp-core-ui .button-primary, .wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+	background: #a46497 none repeat scroll 0 0;
+	border-color: #a46497;
+	box-shadow: none;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+/* toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: top;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bfbfbf;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 80px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 20px;
+}
+
+input:checked + .slider {
+  background-color: #96588a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #96588a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

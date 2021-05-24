@@ -1,0 +1,889 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Order Approval\n"
+"POT-Creation-Date: 2021-01-09 08:51+0100\n"
+"PO-Revision-Date: 2021-01-09 08:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-order-approval.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/admin/ActivationPage.php:56 classes/admin/ActivationPage.php:57
+#: classes/admin/ActivationPage.php:114
+msgid " Activator"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:94
+msgid "Purchase code is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:95
+msgid "Buyer name is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:96
+msgid "Item id is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:97
+msgid ""
+"Max number of domains reached! You have to purchase a new license. The "
+"current license has been activated in the following domains: "
+msgstr ""
+
+#: classes/admin/ActivationPage.php:98 classes/admin/ActivationPage.php:176
+msgid "Verifing, please wait..."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:99
+msgid ""
+"There was an error while verifing the code. Please retry in few minutes!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:100
+msgid "Activation successfully completed!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:101
+msgid "Buyer and Purchase code fields must be filled!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:143
+msgid "Activation"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:159
+msgid ""
+"The plugin can be activate in only <strong>two</strong> domains and they "
+"cannot be unregistered. For each activated domain, you can reactivate "
+"<strong>unlimited</strong> times (including <strong>subdomains</strong> and "
+"<strong>subfolders</strong>). The \"localhost\" domain will not consume "
+"activations. Please enter the following data and hit the activation button"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:165
+msgid "Buyer"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:166
+msgid "Insert the Envato username used to purchase the plugin."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:167
+msgid "Example: vanquish"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:170
+msgid "Purchase code"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:171
+msgid ""
+"Insert the purchase code. It can be downloaded from your CodeCanyon "
+"\"Downloads\" profile page."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:172
+msgid "Example: 7d7c3rt8-f512-227c-8c98-fc53c3b212fe"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:174
+msgid "Activate"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:179
+msgid "The plugin has been successfully activated!"
+msgstr ""
+
+#: classes/admin/CouponSettingsPage.php:18
+msgid "Automatically order approval"
+msgstr ""
+
+#: classes/admin/CouponSettingsPage.php:19
+msgid "Automatically approve the order if the coupon is applied."
+msgstr ""
+
+#: classes/admin/OrderPage.php:17
+msgid "Approval - Custom data"
+msgstr ""
+
+#: classes/admin/OrderPage.php:39
+msgid "Date and time"
+msgstr ""
+
+#: classes/admin/OrderPage.php:40
+msgid ""
+"You can optionally specify a date and time that can be displayed inside the "
+"approval message through the <strong>[datetime]</strong> shortcode."
+msgstr ""
+
+#: classes/admin/OrderPage.php:44
+msgid "Custom approval message"
+msgstr ""
+
+#: classes/admin/OrderPage.php:45
+msgid ""
+"This message will override the Approved message and Rejected message message "
+"configured through the WooCommerce Order Approval -> Text menu. You can use "
+"the special <strong>[datetime]</strong> shortcode to display the configured "
+"date and time."
+msgstr ""
+
+#: classes/admin/OrderPage.php:76
+#: classes/frontend/FieldDisplayManagement.php:106
+#: classes/frontend/FieldDisplayManagement.php:111
+msgid "Time"
+msgstr ""
+
+#: classes/admin/OrderPage.php:77 classes/com/Time.php:32
+#: classes/frontend/FieldDisplayManagement.php:101
+msgid "As soon as possible"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:23
+msgid "Approval/Rejection date"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:43
+msgid "Change status to waiting for approval"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:44
+msgid "Change status to approved"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:45
+msgid "Change status to rejected"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:46
+msgid "Change status to pending payment"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:63 classes/com/Order.php:215
+#: classes/com/Order.php:244
+msgid "Waiting for approval"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:70 classes/com/Order.php:223
+#: classes/com/Order.php:245
+msgid "Approved"
+msgstr ""
+
+#: classes/admin/OrdersListPage.php:77
+msgid "Reject"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:42 classes/admin/TextsPage.php:40
+msgid "Saved successfully!"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:49
+msgid "Options"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:52
+msgid "Time selector"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:54
+msgid "Display a time selector on checkout form"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:64
+msgid "Include \"as soon as possible\" option"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:72
+msgid "Mandatory"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:80
+msgid "Time format"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:82
+msgid "24-hour format"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:83
+msgid "12-hour format"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:86
+msgid "Minimum and Maximum time"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:88
+msgid "Min selectable time"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:95
+msgid "Max selectable time"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:102
+msgid "Minimum selectable time offset (minutes)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:110
+msgid "Minimum selectable time cannot be lesser than \"now\""
+msgstr ""
+
+#: classes/admin/SettingsPage.php:117 classes/admin/SettingsPage.php:207
+#: classes/admin/SettingsPage.php:377
+msgid "Info"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:118
+#, php-format
+msgid ""
+"<strong>Minimum selectable time cannot be lesser than 'now'</strong> option "
+"is enabled, the minimum time is computed as current time plus the minimum "
+"time offset. For example, if current time is <strong>%s</strong> and the "
+"minimum time offset is set as <strong>30</strong> minutes the minimum "
+"selectable time will be <strong>%s</strong>."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:122
+msgid "Email notification"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:124
+msgid "Disable all email notifications"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:132
+msgid ""
+"Send the approved notification for automatic approved orders after the "
+"checkout has been completed"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:141
+msgid "Approval workflow"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:143
+msgid "Type"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:144
+msgid "Select the approval workflow type"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:147
+msgid "Pay and wait for the approval"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:148
+msgid "Wait for the approval and pay"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:152
+msgid "Order cancellation"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:154
+msgid "Customer - Order cancellation time (minutes) - Customer:"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:155
+msgid ""
+"The customer can optionally cancel the order in X minutes after it has been "
+"approved, where X can be specified using this option."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:155 classes/admin/SettingsPage.php:164
+msgid "Leave 0 to disable this option."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:163
+msgid "Automatic - Order cancellation time (minutes) if not paid:"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:164
+msgid ""
+"The system can optionally cancel the order in X minutes (use this option to "
+"define the X) after it has been approved and if it has still not been paid. "
+"The check is performed when the user accesses the order details page."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:170
+msgid "Automatic rejection"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:171
+msgid ""
+"If the shop manager doesn't approve an order marked as <strong>waiting for "
+"approval</strong> in the given time, it will be automatically set as "
+"rejected."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:173
+msgid "Time interval"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:176
+msgid "Ignore this option"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:177
+msgid "Every 5 minutes"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:178
+msgid "Every 10 minutes"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:179
+msgid "Every 15 minutes"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:180
+msgid "Every 30 minutes"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:181
+msgid "Hourly"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:182
+msgid "Daily"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:186
+msgid "Automatic approval"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:187
+msgid ""
+"If at least one of the following condition is verified, the order will be "
+"automatically approved."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:189
+msgid "Payment gateway"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:190
+msgid ""
+"Select for which payment gateway the order will be automatically set as "
+"approved. <strong>Note:</strong> in case of automatic approval, no approval "
+"links will be embedded in the new order email."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:208
+msgid ""
+"In case of <strong>Wait and pay</strong> type selection, Orders marked as "
+"<strong>approved</strong> will be <strong>always</strong> considered as "
+"still to be paid. The approved order can be paid by the customer "
+"<strong>through the Order details page</strong>. "
+msgstr ""
+
+#: classes/admin/SettingsPage.php:211
+msgid "Order subtotal"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:212
+msgid ""
+"If the order subtotal (the sum of products costs excluding taxes) is more "
+"that the set value, it will be automatically approved. <strong>Note:</"
+"strong> Leave emtpy or 0 to ignore this setting."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:214
+msgid "Amount"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:221
+msgid "User role"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:222
+msgid ""
+"If the user belongs to one of the selected roles, the order will be "
+"approved. <strong>Note:</strong> Leave emtpy to ignore this setting."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:224
+msgid "Roles"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:241
+msgid "Shipping methods"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:242
+msgid ""
+"Select for which shipping gateway the order will be automatically set as "
+"approved. <strong>Note:</strong> in case of automatic approval, no approval "
+"links will be embedded in the new order email."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:320
+msgid "Product & Category"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:322
+msgid "Approval type"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:323
+msgid ""
+"The order will be automatically approved / requires manual approval if at "
+"least one of the following products is purchase."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:326
+msgid "Automatically approved for selected products/categories"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:327
+msgid "Manual approval only for selected products/categories"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:331
+msgid ""
+"Consider also products belonging to subcategories of the selected categories?"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:340
+msgid "Products"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:352
+msgid "Categories"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:364
+msgid "Tags"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:378
+msgid ""
+"<strong>Manual approval example:</strong> if the order contains <strong>none "
+"of the selected</strong> products or categories, it will be "
+"<strong>automatically approved</strong>"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:379
+msgid ""
+"<strong>Automatical approve example:</strong> if the order contains at least "
+"one of the selected products or categories, the order will be automatically "
+"approved, otherwise it will require a manual approval by the shop manager."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:383 classes/admin/TextsPage.php:332
+msgid "Save"
+msgstr ""
+
+#: classes/admin/TextsPage.php:48 classes/admin/TextsPage.php:55
+msgid "Approval area"
+msgstr ""
+
+#: classes/admin/TextsPage.php:49
+msgid "Emails"
+msgstr ""
+
+#: classes/admin/TextsPage.php:50
+msgid "Checkout"
+msgstr ""
+
+#: classes/admin/TextsPage.php:57
+msgid "Section title"
+msgstr ""
+
+#: classes/admin/TextsPage.php:71
+msgid "Default message - Approved"
+msgstr ""
+
+#: classes/admin/TextsPage.php:72
+msgid ""
+"This message will be shown to give additional details about the approval. In "
+"addition you can: "
+msgstr ""
+
+#: classes/admin/TextsPage.php:74
+msgid "Override this text through the admin order pages."
+msgstr ""
+
+#: classes/admin/TextsPage.php:75
+msgid ""
+"Use special <strong>[datetime]</strong> shortcode to display the datetime "
+"eventually set via the admin order page. If no time has been selected, that "
+"shortcode will display an empty string."
+msgstr ""
+
+#: classes/admin/TextsPage.php:93
+msgid "Default message - Rejected"
+msgstr ""
+
+#: classes/admin/TextsPage.php:94
+msgid ""
+"This message will be shown to give additional details about the approval. "
+"You can override this text through each specific admin order page."
+msgstr ""
+
+#: classes/admin/TextsPage.php:113
+msgid "Timeline - Waiting for approval step"
+msgstr ""
+
+#: classes/admin/TextsPage.php:126
+msgid "Timeline - Order approved step"
+msgstr ""
+
+#: classes/admin/TextsPage.php:139
+msgid "Timeline - Order rejected step"
+msgstr ""
+
+#: classes/admin/TextsPage.php:155 classes/admin/TextsPage.php:273
+msgid "You can use the following shortcodes:"
+msgstr ""
+
+#: classes/admin/TextsPage.php:157
+msgid "Order data"
+msgstr ""
+
+#: classes/admin/TextsPage.php:158
+msgid "Billing data"
+msgstr ""
+
+#: classes/admin/TextsPage.php:159
+msgid "Shipping data"
+msgstr ""
+
+#: classes/admin/TextsPage.php:160
+msgid "Payment page"
+msgstr ""
+
+#: classes/admin/TextsPage.php:161
+msgid ""
+"Order custom approval message (this can be set through the order details "
+"page)"
+msgstr ""
+
+#: classes/admin/TextsPage.php:166
+msgid "Approved order notification email"
+msgstr ""
+
+#: classes/admin/TextsPage.php:168 classes/admin/TextsPage.php:220
+msgid "Heading"
+msgstr ""
+
+#: classes/admin/TextsPage.php:182 classes/admin/TextsPage.php:234
+#: classes/com/emails/Approved_Order_Email.php:199
+#: classes/com/emails/Rejected_Order_Email.php:152
+#: classes/com/emails/old/Approved_Order_Email.php:162
+#: classes/com/emails/old/Rejected_Order_Email.php:152
+msgid "Subject"
+msgstr ""
+
+#: classes/admin/TextsPage.php:196 classes/admin/TextsPage.php:248
+msgid "Body"
+msgstr ""
+
+#: classes/admin/TextsPage.php:219
+msgid "Rejected order notification email"
+msgstr ""
+
+#: classes/admin/TextsPage.php:270
+msgid "New order email sent to the Admin"
+msgstr ""
+
+#: classes/admin/TextsPage.php:271
+msgid "Approval links to embed on email body"
+msgstr ""
+
+#: classes/admin/TextsPage.php:275
+msgid "It will generate an URL to directly approve the order"
+msgstr ""
+
+#: classes/admin/TextsPage.php:276
+msgid "It will generate an URL to directly reject the order"
+msgstr ""
+
+#: classes/admin/TextsPage.php:301
+msgid "Time selector label"
+msgstr ""
+
+#: classes/admin/TextsPage.php:315
+msgid "Time selection error"
+msgstr ""
+
+#: classes/com/Cron.php:18
+msgid "Once every 5 Minutes"
+msgstr ""
+
+#: classes/com/Cron.php:24
+msgid "Once every 10 Minutes"
+msgstr ""
+
+#: classes/com/Cron.php:30
+msgid "Once every 15 Minutes"
+msgstr ""
+
+#: classes/com/Cron.php:36
+msgid "Once every 30 Minutes"
+msgstr ""
+
+#: classes/com/Option.php:57
+msgid "Order #[order_id] has been approved!"
+msgstr ""
+
+#: classes/com/Option.php:62
+msgid "Order approved"
+msgstr ""
+
+#: classes/com/Option.php:63
+msgid ""
+"Your order has been approved! Please go to the <a href="
+"\"[payment_page_url]\">payment page</a> to complete the payment!"
+msgstr ""
+
+#: classes/com/Option.php:65
+msgid "Order #[order_id] has been rejected"
+msgstr ""
+
+#: classes/com/Option.php:66
+msgid "Order rejected"
+msgstr ""
+
+#: classes/com/Option.php:67
+msgid ""
+"Your order has been rejected. For more details visit the <a href="
+"\"[order_page_url]\">order page</a>."
+msgstr ""
+
+#: classes/com/Option.php:68
+msgid ""
+"You can approve or rejecte the order by directly click on the followin links "
+"<ol><li><a href=\"[approve_order_link]\">Click here to approve</a></"
+"li><li><a href=\"[reject_order_link]\">Click here to reject</a></li></ol>"
+msgstr ""
+
+#: classes/com/Option.php:70
+msgid "Good news! Your order has been approved!"
+msgstr ""
+
+#: classes/com/Option.php:71
+msgid "Your order has been rejected."
+msgstr ""
+
+#: classes/com/Option.php:72
+msgid "Approval status"
+msgstr ""
+
+#: classes/com/Option.php:73
+msgid "Waiting for approval..."
+msgstr ""
+
+#: classes/com/Option.php:74
+msgid "The order has been approved"
+msgstr ""
+
+#: classes/com/Option.php:75
+msgid "The order has been rejected"
+msgstr ""
+
+#: classes/com/Order.php:61
+msgid "The order has been successfully approved!"
+msgstr ""
+
+#: classes/com/Order.php:68
+msgid "The order has been successfully rejected!"
+msgstr ""
+
+#: classes/com/Order.php:220
+#, php-format
+msgid "Waiting for approval <span class=\"count\">(%s)</span>"
+msgid_plural "waiting for approval <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/com/Order.php:228
+#, php-format
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/com/Order.php:231 classes/com/Order.php:246
+msgid "Rejected"
+msgstr ""
+
+#: classes/com/Order.php:236
+#, php-format
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/com/Order.php:576
+#, php-format
+msgid "Product ID #%s stock incremented from %s to %s."
+msgstr ""
+
+#: classes/com/Product.php:92
+msgid "Variation"
+msgstr ""
+
+#: classes/com/Time.php:58
+msgid "Unavailable"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:13
+#: classes/com/emails/Approved_Order_Email.php:16
+#: classes/com/emails/old/Approved_Order_Email.php:13
+#: classes/com/emails/old/Approved_Order_Email.php:16
+msgid "Approved order"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:113
+msgid "Your {site_title} order is approved"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:123
+#: classes/com/emails/Rejected_Order_Email.php:83
+#: classes/com/emails/old/Approved_Order_Email.php:93
+#: classes/com/emails/old/Rejected_Order_Email.php:83
+msgid "Thanks for shopping with us"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:189
+#: classes/com/emails/Rejected_Order_Email.php:142
+#: classes/com/emails/old/Approved_Order_Email.php:152
+#: classes/com/emails/old/Rejected_Order_Email.php:142
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:193
+#: classes/com/emails/Rejected_Order_Email.php:146
+#: classes/com/emails/old/Approved_Order_Email.php:156
+#: classes/com/emails/old/Rejected_Order_Email.php:146
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:195
+#: classes/com/emails/Rejected_Order_Email.php:148
+#: classes/com/emails/old/Approved_Order_Email.php:158
+#: classes/com/emails/old/Rejected_Order_Email.php:148
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:207
+#: classes/com/emails/Rejected_Order_Email.php:160
+#: classes/com/emails/old/Approved_Order_Email.php:170
+#: classes/com/emails/old/Rejected_Order_Email.php:160
+msgid "Email heading"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:215
+#: classes/com/emails/Rejected_Order_Email.php:168
+#: classes/com/emails/old/Approved_Order_Email.php:178
+#: classes/com/emails/old/Rejected_Order_Email.php:168
+msgid "Additional content"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:216
+#: classes/com/emails/Rejected_Order_Email.php:169
+#: classes/com/emails/old/Approved_Order_Email.php:179
+#: classes/com/emails/old/Rejected_Order_Email.php:169
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:218
+#: classes/com/emails/Rejected_Order_Email.php:171
+#: classes/com/emails/old/Approved_Order_Email.php:181
+#: classes/com/emails/old/Rejected_Order_Email.php:171
+msgid "N/A"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:224
+#: classes/com/emails/Rejected_Order_Email.php:177
+#: classes/com/emails/old/Approved_Order_Email.php:187
+#: classes/com/emails/old/Rejected_Order_Email.php:177
+msgid "Email type"
+msgstr ""
+
+#: classes/com/emails/Approved_Order_Email.php:226
+#: classes/com/emails/Rejected_Order_Email.php:179
+#: classes/com/emails/old/Approved_Order_Email.php:189
+#: classes/com/emails/old/Rejected_Order_Email.php:179
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: classes/com/emails/Rejected_Order_Email.php:13
+#: classes/com/emails/Rejected_Order_Email.php:16
+#: classes/com/emails/old/Rejected_Order_Email.php:13
+#: classes/com/emails/old/Rejected_Order_Email.php:16
+msgid "Rejected order"
+msgstr ""
+
+#: classes/com/emails/Rejected_Order_Email.php:73
+#: classes/com/emails/old/Approved_Order_Email.php:83
+#: classes/com/emails/old/Rejected_Order_Email.php:73
+msgid "Your {site_title} order is now complete"
+msgstr ""
+
+#: classes/frontend/ApprovalArea.php:56
+msgid "are you sure?"
+msgstr ""
+
+#: templates/frontend/approval_area.php:55
+msgid "Pay"
+msgstr ""
+
+#: templates/frontend/approval_area.php:60
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce-order-approval.php:40
+#, php-format
+msgid ""
+"To complete the <span style=\"color:#96588a; font-weight:bold;\">%s</span> "
+"plugin activation, you must verify your purchase license. Click <a href=\"%s"
+"\">here</a> to verify it."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: woocommerce-order-approval.php:155
+msgid "WooCommerce Order Approval"
+msgstr ""
+
+#: woocommerce-order-approval.php:156
+msgid "WooCommerce Order Approval - Settings"
+msgstr ""
+
+#: woocommerce-order-approval.php:156
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-order-approval.php:157
+msgid "WooCommerce Order Approval - Texts"
+msgstr ""
+
+#: woocommerce-order-approval.php:157
+msgid "Texts"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Order approval system."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lagudi Domenico"
+msgstr ""
