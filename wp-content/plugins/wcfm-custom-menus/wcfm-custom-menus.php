@@ -125,8 +125,10 @@ function wcfmcsm_wcfm_menus( $menus ) {
 	
 	unset($menus['wcfm-products']['has_new']) ; 
 	unset($menus['wcfm-orders']['has_new']) ;
-	$settingmenu['wcfm-products'] = $menus['wcfm-products'] ; 
-	$settingmenu['wcfm-orders'] = $menus['wcfm-orders'] ; 
+	
+	
+	$settingmenu['wcfm-products'] = $menus['wcfm-products'] ;  
+	$settingmenu['wcfm-orders'] = $menus['wcfm-orders'] ;
 	$settingmenu['wcfm-settings'] = $menus['wcfm-settings'] ; 
 	
 	
@@ -137,13 +139,13 @@ function wcfmcsm_wcfm_menus( $menus ) {
 	$custom_menus = array( 'wcfm-ahli' => array(   'label'  => __( 'Members', 'wcfm-custom-menus'),
 																									 'url'       => get_wcfm_custom_menus_url( 'wcfm-ahli' ),
 																									 'icon'      => 'cubes',
-																									 'priority'  => 5.1
+																									 'priority'  => 6
 																									) ,
 																									
 													'wcfm-profile' => array(   'label'  => __( 'Profile', 'wcfm-custom-menus'),
 																										 'url'       => get_wcfm_custom_menus_url( 'wcfm-profile' ),
 																										 'icon'      => 'cubes',
-																										 'priority'  => 5.2
+																										 'priority'  => 7
 																										), /* 
 													'wcfm-upgrade' => array(   'label'  => __( 'Upgrade', 'wcfm-custom-menus'),
 																										 'url'       => get_wcfm_custom_menus_url( 'wcfm-upgrade' ),
@@ -159,16 +161,18 @@ function wcfmcsm_wcfm_menus( $menus ) {
 													'wcfm-cubaan' => array(   'label'  => __( 'Cubaan', 'wcfm-custom-menus'),
 																												 'url'       => get_wcfm_custom_menus_url( 'wcfm-cubaan' ),
 																												 'icon'      => 'cubes',
-																												 'priority'  => 5.5
+																												 'priority'  => 8
 																												)
 																										
 											);
 	
+	unset($custom_menus['wcfm-cubaan']) ; 
 	$menus = array_merge( $menus, $custom_menus );
 		
+	//deb($menus)	;								
 	return $menus;
 }
-add_filter( 'wcfm_menus', 'wcfmcsm_wcfm_menus', 50 );
+add_filter( 'wcfm_menus', 'wcfmcsm_wcfm_menus', 70 );
 
 /**
  *  WCFM - Custom Menus Views

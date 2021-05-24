@@ -100,6 +100,17 @@ if(isset($_GET['add_new_ahli']) || in_array("Members", $check_categories)){
 			$("li.product_cats_checklist_item.checklist_item_15 input.wcfm-checkbox.checklist_type_product_cat").prop( "checked", true );
 			$("li.product_cats_checklist_item.checklist_item_15").addClass("luqhide");
 				
+			//policy hide
+			$(".wcfm_shipping_policy").addClass("luqhide");
+			$("#wp-wcfm_shipping_policy-wrap").addClass("luqhide");
+			$(".wcfm_refund_policy").addClass("luqhide");
+			$("#wp-wcfm_refund_policy-wrap").addClass("luqhide");
+
+			//advance > limit subscription
+			$("#_subscription_limit").addClass("luqhide");
+			$("._subscription_limit").addClass("luqhide");
+			$(".wcfm-content p.menu_order.wcfm_title").addClass("luqhide");
+			$("#menu_order").addClass("luqhide");
 			
 			
 		});
@@ -111,6 +122,10 @@ if(isset($_GET['add_new_ahli']) || in_array("Members", $check_categories)){
 	
 	
 	}
+
+
+
+	
 	
 
 ?>

@@ -34,6 +34,8 @@ function after_wcfm_product_submit_redirect($redirect_to){
       jQuery( document ).ready( function( $ ) {
       
         $(".woocommerce-product-gallery").addClass("luqhide");
+        $("div.product-main div.product-gallery").addClass("luqhide");
+        
         $("div.summary.entry-summary").css('width','100%');
         
         var cct_status  =  $('#cct_status option:selected').text() ; 

@@ -5,6 +5,7 @@
 //####//hide woocommerce checkout field
 add_filter( 'woocommerce_checkout_fields' , 'remove_company_name' );
 function remove_company_name( $fields ) {
+   
 
     foreach(WC()->cart->cart_contents AS $key => $val){
         if($val['full_name_member']){
@@ -18,7 +19,7 @@ function remove_company_name( $fields ) {
         }
       
     }
-
+    
    //deb( WC()->cart->cart_contents);
     //deb($fields['billing']);exit();
 	$fields['billing']['billing_first_name']['placeholder'] = 'Name';
