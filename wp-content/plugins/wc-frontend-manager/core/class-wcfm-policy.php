@@ -69,7 +69,7 @@ class WCFM_Policy {
 		</div>
 		<div class="wcfm-container">
 			<div id="wcfm_settings_form_policies_expander" class="wcfm-content">
-			  <h2><?php echo apply_filters( 'wcfm_sold_by_label', '', __( 'Store', 'wc-frontend-manager' ) ) . ' ' . __('Store Policies Setting', 'wc-frontend-manager'); ?></h2>
+			  <h2><?php echo apply_filters( 'wcfm_sold_by_label', '', __( 'Store', 'wc-frontend-manager' ) ) . ' ' . __('Kariah Policies Setting', 'wc-frontend-manager'); ?></h2>
 				<?php wcfm_video_tutorial( 'https://wclovers.com/knowledgebase/wcfm-store-policies/' ); ?>
 				<div class="wcfm_clearfix"></div>
 				<?php
@@ -82,8 +82,8 @@ class WCFM_Policy {
 				}
 				$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_settings_fields_policies', array(
 					                                                                        "wcfm_policy_tab_title" => array('label' => __('Policy Tab Label', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $_wcfm_policy_tab_title ),
-																																									"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $_wcfm_shipping_policy ),
-																																									"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $_wcfm_refund_policy ),
+																																									//"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $_wcfm_shipping_policy ),
+																																									//"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $_wcfm_refund_policy ),
 																																									"wcfm_cancellation_policy" => array('label' => __('Cancellation/Return/Exchange Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_cancellation_policy ),
 																																									) ) );
 			  ?>
@@ -178,7 +178,7 @@ class WCFM_Policy {
 		<!-- collapsible -->
 		<div class="page_collapsible" id="wcfm_settings_form_policies_head">
 			<label class="wcfmfa fa-ambulance"></label>
-			<?php _e('Store Policies', 'wc-frontend-manager'); ?><span></span>
+			<?php _e('Kariah Policies', 'wc-frontend-manager'); ?><span></span>
 		</div>
 		<div class="wcfm-container">
 			<div id="wcfm_settings_form_policies_expander" class="wcfm-content">
@@ -197,8 +197,8 @@ class WCFM_Policy {
 				}
 				$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_vendor_settings_fields_policies', array(
 					                                                                        "wcfm_policy_tab_title" => array('label' => __('Policy Tab Label', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $_wcfm_vendor_policy_tab_title ),
-																																									"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_shipping_policy ),
-																																									"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_refund_policy ),
+																																									//"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_shipping_policy ),
+																																									//"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_refund_policy ),
 																																									"wcfm_cancellation_policy" => array('label' => __('Cancellation/Return/Exchange Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_cancellation_policy ),
 																																									), $vendor_id ) );
 			  ?>
@@ -428,7 +428,7 @@ class WCFM_Policy {
 		
 		$_wcfm_policy_tab_title = isset( $wcfm_policy_options['policy_tab_title'] ) ? $wcfm_policy_options['policy_tab_title'] : '';
 		if( wcfm_empty($_wcfm_product_policy_tab_title) ) $_wcfm_product_policy_tab_title = $_wcfm_policy_tab_title;
-		if( wcfm_empty($_wcfm_product_policy_tab_title) ) $_wcfm_product_policy_tab_title = __( 'Store Policies', 'wc-frontend-manager' );
+		if( wcfm_empty($_wcfm_product_policy_tab_title) ) $_wcfm_product_policy_tab_title = __( 'Kariah Policies', 'wc-frontend-manager' );
 		
 		return apply_filters( 'wcfm_product_policy_tab_title', $_wcfm_product_policy_tab_title, $product_id );
 	}

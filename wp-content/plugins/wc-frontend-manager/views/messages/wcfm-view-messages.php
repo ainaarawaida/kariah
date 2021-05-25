@@ -106,7 +106,7 @@ $message_types  = get_wcfm_message_types();
 		<?php if( apply_filters( 'wcfm_is_allow_direct_message', true ) && apply_filters( 'wcfm_is_pref_direct_message', true ) ) { ?>
 			<form id="wcfm_messages_form" class="wcfm">
 				<div class="wcfm-container wcfm-top-element-container">
-					<h2><span class="fab fa-telegram-plane"></span>&nbsp;<?php _e('Send Direct Message', 'wc-frontend-manager' ); ?>&nbsp;-&nbsp;<?php if( wcfm_is_vendor() || ( function_exists( 'wcfm_is_affiliate' ) && wcfm_is_affiliate() ) ) { _e('To Store Admin', 'wc-frontend-manager' ); } else { _e('To Store Vendors', 'wc-frontend-manager' ); } ?></h2>
+					<h2><span class="fab fa-telegram-plane"></span>&nbsp;<?php _e('Send Direct Message', 'wc-frontend-manager' ); ?>&nbsp;-&nbsp;<?php if( wcfm_is_vendor() || ( function_exists( 'wcfm_is_affiliate' ) && wcfm_is_affiliate() ) ) { _e('To Kariah Admin', 'wc-frontend-manager' ); } else { _e('To Store Vendors', 'wc-frontend-manager' ); } ?></h2>
 					<div class="wcfm-clearfix"></div>
 				</div>
 				<div class="wcfm-clearfix"></div><br />

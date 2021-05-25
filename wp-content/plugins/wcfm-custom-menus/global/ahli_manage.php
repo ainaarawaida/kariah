@@ -1,14 +1,25 @@
 <?php
 
 
+//add_action( 'jet-engine/forms/luq_row/275', 'luqformahlimanage2',10,1 );
+function luqformahlimanage2($field){
+	return ;
+	if($field['settings']['name'] == 'cct_status'){
+		?>
+<div class="jet-form-col jet-form-col-12  field-type-text  jet-form-field-container" data-field="test" data-conditional="false"><div class="jet-form-col__start"><div class="jet-form__label">
+<span class="jet-form__label-text">test<span class="jet-form__required">*</span></span>
+</div></div>
+<div class="jet-form-col__end"><input class="jet-form__field text-field " required="required" name="test" id="test" value="<?php echo isset($_GET['_post_id']) ? 'ssss' : '' ; ?>" type="text" data-field-name="test"></div></div>
 
-
-
-add_filter( 'jet-engine/forms/post-render/275' , 'ahli_manage_jetluq', 10 ,1 );
-//add_filter( 'jet-engine/forms/booking/form-cache' , 'ahli_manage_jetluq', 10 ,1 );
-
-function ahli_manage_jetluq($data){
+		<?php
+	}
 	
+}
+
+//add_filter( 'jet-engine/forms/post-render/275' , 'ahli_manage_jetluq', 10 ,1 );
+//add_filter( 'jet-engine/forms/booking/form-cache' , 'ahli_manage_jetluq', 10 ,1 );
+function ahli_manage_jetluq($data){
+	//deb('aaaa');exit();
  	return $data ;
 }
 
@@ -16,6 +27,7 @@ add_action ('jet-engine-booking/update_vendor' , 'luqformahlimanage');
 function luqformahlimanage($member){
   
 	if( wcfm_is_vendor() ) {
+		
         global $wpdb;
 		$vendor_id   = get_current_user_id();
 		$data = ['vendor_id' => $vendor_id , 'cct_status' => $member['cct_status'], 'cct_modified' => date("Y-m-d h:i:s") ]; // NULL value.

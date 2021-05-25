@@ -270,7 +270,7 @@ class WCFMmp_Store_Setup {
 			<head>
 				<meta name="viewport" content="width=device-width" />
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-				<title><?php esc_html_e('Vendor Store &rsaquo; Setup Wizard', 'wc-multivendor-marketplace'); ?></title>
+				<title><?php esc_html_e('Management Kariah &rsaquo; Setup Wizard', 'wc-multivendor-marketplace'); ?></title>
 				
 				<?php wp_head(); ?>
 				
@@ -294,7 +294,7 @@ class WCFMmp_Store_Setup {
 				</style>
 			</head>
 			<body class="wc-setup wcfm-store-setup wp-core-ui">
-			 <h1 id="wc-logo"><a target="_blank" href="<?php echo site_url(); ?>"><img width="75" height="75" src="<?php echo $logo_image_url; ?>" alt="<?php echo get_bloginfo('title'); ?>" /><span><?php _e( 'Store Setup', 'wc-multivendor-marketplace' ); ?></span></a></h1>
+			 <h1 id="wc-logo"><a target="_blank" href="<?php echo site_url(); ?>"><img width="75" height="75" src="<?php echo $logo_image_url; ?>" alt="<?php echo get_bloginfo('title'); ?>" /><span><?php _e( 'Kariah Setup', 'wc-multivendor-marketplace' ); ?></span></a></h1>
 			<?php
 	}
 
@@ -336,8 +336,8 @@ class WCFMmp_Store_Setup {
 	public function wcfmmp_store_setup_introduction() {
 		?>
 		<h1><?php echo apply_filters( 'wcfm_store_setup_welcome_heading', sprintf( __("Welcome to %s!", 'wc-multivendor-marketplace'), get_bloginfo('title') ) ); ?></h1>
-		<p><?php echo apply_filters( 'wcfm_store_setup_welcome_message', sprintf( __('Thank you for choosing %s! This quick setup wizard will help you to configure the basic settings and you will have your store ready in no time.', 'wc-multivendor-marketplace'), get_bloginfo('title') ) ); ?></p>
-		<p><?php echo esc_html( apply_filters( 'wcfm_store_setup_welcome_footer', __( "If you don't want to go through the wizard right now, you can skip and return to the dashboard. You may setup your store from dashboard &rsaquo; setting anytime!", 'wc-multivendor-marketplace' ) ) ); ?></p>
+		<p><?php echo apply_filters( 'wcfm_store_setup_welcome_message', sprintf( __('Thank you for choosing %s! This quick setup wizard will help you to configure the basic settings and you will have your Kariah ready in no time.', 'wc-multivendor-marketplace'), get_bloginfo('title') ) ); ?></p>
+		<p><?php echo esc_html( apply_filters( 'wcfm_store_setup_welcome_footer', __( "If you don't want to go through the wizard right now, you can skip and return to the dashboard. You may setup your Kariah from dashboard &rsaquo; setting anytime!", 'wc-multivendor-marketplace' ) ) ); ?></p>
 		<p class="wc-setup-actions step">
 			<a href="<?php echo esc_url($this->get_next_step_link()); ?>" class="button-primary button button-large button-next wcfm_submit_button"><?php esc_html_e("Let's go!", 'wc-frontend-manager'); ?></a>
 			<?php if( apply_filters( 'wcfm_is_allow_store_setup_step_skip', true ) ) { ?> 
@@ -408,16 +408,16 @@ class WCFMmp_Store_Setup {
 		$shop_description = wcfm_get_user_meta( $user_id, '_store_description', true );
 		
 		?>
-		<h1><?php esc_html_e('Store setup', 'wc-multivendor-marketplace'); ?></h1>
+		<h1><?php esc_html_e('Kariah setup', 'wc-multivendor-marketplace'); ?></h1>
 		<form method="post">
 			<table class="form-table">
 				<?php
 					$settings_fields_general = apply_filters( 'wcfm_marketplace_settings_fields_general', array(
-																																													"gravatar"    => array('label' => __('Store Logo', 'wc-frontend-manager') , 'type' => 'upload', 'in_table' => 'yes', 'name' => 'vendor_data[gravatar]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'prwidth' => 150, 'value' => $gravatar_url ),
+																																													"gravatar"    => array('label' => __('Kariah Logo', 'wc-frontend-manager') , 'type' => 'upload', 'in_table' => 'yes', 'name' => 'vendor_data[gravatar]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'prwidth' => 150, 'value' => $gravatar_url ),
 																																													"banner"      => array('label' => __('Banner', 'wc-frontend-manager') , 'type' => 'upload', 'in_table' => 'yes', 'name' => 'vendor_data[banner]', 'class' => 'wcfm-text wcfm_ele wcfm-banner-uploads', 'label_class' => 'wcfm_title', 'prwidth' => 250, 'value' => $banner_url, 'desc_class' => 'wcfm_page_options_desc', 'desc' => $banner_help_text ),
-																																													"store_name"  => array('label' => __('Shop Name', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[store_name]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_name ),
-																																													"store_email" => array('label' => __('Store Email', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[store_email]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_email ),
-																																													"phone"       => array('label' => __('Store Phone', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[phone]', 'placeholder' => '+123456..', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $phone ),
+																																													"store_name"  => array('label' => __('Kariah Name', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[store_name]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_name ),
+																																													"store_email" => array('label' => __('Kariah Email', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[store_email]', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_email ),
+																																													"phone"       => array('label' => __('Kariah Phone', 'wc-frontend-manager') , 'type' => 'text', 'in_table' => 'yes', 'name' => 'vendor_data[phone]', 'placeholder' => '+123456..', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $phone ),
 																																													), $user_id );
 					
 					if( !apply_filters( 'wcfm_is_allow_store_logo', true ) ) {
@@ -444,12 +444,12 @@ class WCFMmp_Store_Setup {
 					
 					if( apply_filters( 'wcfm_is_allow_store_address', true ) ) {
 						$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_marketplace_settings_fields_address', array(
-																																															"street_1" => array('label' => __('Store Address 1', 'wc-multivendor-marketplace'), 'placeholder' => __('Street address', 'wc-frontend-manager'), 'name' => 'vendor_data[address][street_1]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $street_1 ),
-																																															"street_2" => array('label' => __('Store Address 2', 'wc-multivendor-marketplace'), 'placeholder' => __('Apartment, suite, unit etc. (optional)', 'wc-frontend-manager'), 'name' => 'vendor_data[address][street_2]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $street_2 ),
-																																															"city" => array('label' => __('Store City/Town', 'wc-multivendor-marketplace'), 'placeholder' => __('Town / City', 'wc-frontend-manager'), 'name' => 'vendor_data[address][city]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $city ),
-																																															"zip" => array('label' => __('Store Postcode/Zip', 'wc-multivendor-marketplace'), 'placeholder' => __('Postcode / Zip', 'wc-frontend-manager'), 'name' => 'vendor_data[address][zip]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $zip, 'attributes' => array( 'min' => '1', 'step'=> '1' ) ),
-																																															"country" => array('label' => __('Store Country', 'wc-multivendor-marketplace'), 'name' => 'vendor_data[address][country]', 'type' => 'country', 'in_table' => 'yes', 'wrapper_class' => 'store_address_wrap', 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'attributes' => array(  'style' => 'width:100%' ), 'custom_attributes' => array( 'required' => true ), 'value' => $country ),
-																																															"state" => array('label' => __('Store State/County', 'wc-multivendor-marketplace'), 'name' => 'vendor_data[address][state]', 'type' => 'select', 'in_table' => 'yes', 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'attributes' => array(  'style' => 'width:100%' ),  'options' => $state_options, 'value' => $state ),
+																																															"street_1" => array('label' => __('Kariah Address 1', 'wc-multivendor-marketplace'), 'placeholder' => __('Street address', 'wc-frontend-manager'), 'name' => 'vendor_data[address][street_1]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $street_1 ),
+																																															"street_2" => array('label' => __('Kariah Address 2', 'wc-multivendor-marketplace'), 'placeholder' => __('Apartment, suite, unit etc. (optional)', 'wc-frontend-manager'), 'name' => 'vendor_data[address][street_2]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $street_2 ),
+																																															"city" => array('label' => __('Kariah City/Town', 'wc-multivendor-marketplace'), 'placeholder' => __('Town / City', 'wc-frontend-manager'), 'name' => 'vendor_data[address][city]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $city ),
+																																															"zip" => array('label' => __('Kariah Postcode/Zip', 'wc-multivendor-marketplace'), 'placeholder' => __('Postcode / Zip', 'wc-frontend-manager'), 'name' => 'vendor_data[address][zip]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $zip, 'attributes' => array( 'min' => '1', 'step'=> '1' ) ),
+																																															"country" => array('label' => __('Kariah Country', 'wc-multivendor-marketplace'), 'name' => 'vendor_data[address][country]', 'type' => 'country', 'in_table' => 'yes', 'wrapper_class' => 'store_address_wrap', 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'attributes' => array(  'style' => 'width:100%' ), 'custom_attributes' => array( 'required' => true ), 'value' => $country ),
+																																															"state" => array('label' => __('Kariah State/County', 'wc-multivendor-marketplace'), 'name' => 'vendor_data[address][state]', 'type' => 'select', 'in_table' => 'yes', 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'attributes' => array(  'style' => 'width:100%' ),  'options' => $state_options, 'value' => $state ),
 																																															), $user_id ) );
 					
 						$api_key = isset( $WCFMmp->wcfmmp_marketplace_options['wcfm_google_map_api'] ) ? $WCFMmp->wcfmmp_marketplace_options['wcfm_google_map_api'] : '';
@@ -458,7 +458,7 @@ class WCFMmp_Store_Setup {
 						if ( apply_filters( 'wcfm_is_allow_store_map_location', true ) && ( ( ($wcfm_map_lib == 'google') && !empty( $api_key ) ) || ($wcfm_map_lib == 'leaflet') ) ) {
 							$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_marketplace_settings_fields_location', array(
 																																																				"find_address" => array( 'label' => __( 'Find Location', 'wc-frontend-manager' ), 'placeholder' => __( 'Type an address to find', 'wc-frontend-manager' ), 'name' => 'vendor_data[find_address]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $map_address ),
-																																																				"withdrawal_setting_break_1" => array( 'label' => __('Store Location', 'wc-multivendor-marketplace'), 'type' => 'html', 'in_table' => 'yes', 'value' => '<div class="wcfm-marketplace-google-map" id="wcfm-marketplace-map"></div>' ),
+																																																				"withdrawal_setting_break_1" => array( 'label' => __('Kariah Location', 'wc-multivendor-marketplace'), 'type' => 'html', 'in_table' => 'yes', 'value' => '<div class="wcfm-marketplace-google-map" id="wcfm-marketplace-map"></div>' ),
 																																																				"store_location" => array( 'type' => 'hidden', 'name' => 'vendor_data[store_location]', 'in_table' => 'yes', 'value' => $store_location ),
 																																																				"store_lat" => array( 'type' => 'hidden', 'name' => 'vendor_data[store_lat]', 'in_table' => 'yes', 'value' => $store_lat ),
 																																																				"store_lng" => array( 'type' => 'hidden', 'name' => 'vendor_data[store_lng]', 'in_table' => 'yes', 'value' => $store_lng ),
@@ -470,7 +470,7 @@ class WCFMmp_Store_Setup {
 			<?php
 			if( apply_filters( 'wcfm_is_allow_store_description', true ) ) {
 				$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_marketplace_settings_fields_brand', array(
-					"shop_description" => array('label' => __('Shop Description', 'wc-frontend-manager') , 'type' => 'wpeditor', 'class' => 'wcfm-textarea wcfm_ele wcfm_wpeditor', 'label_class' => 'wcfm_title', 'value' => $shop_description, 'hints' => __( 'This is displayed on your shop page.', 'wc-frontend-manager' ) ),
+					"shop_description" => array('label' => __('Kariah Description', 'wc-frontend-manager') , 'type' => 'wpeditor', 'class' => 'wcfm-textarea wcfm_ele wcfm_wpeditor', 'label_class' => 'wcfm_title', 'value' => $shop_description, 'hints' => __( 'This is displayed on your Kariah page.', 'wc-frontend-manager' ) ),
 					), $user_id ) );
 			}
 			?>
@@ -838,14 +838,14 @@ class WCFMmp_Store_Setup {
 		$wcfmmp_seo_twitter_image_url = $wcfmmp_seo_twitter_image ? wp_get_attachment_thumb_url( $wcfmmp_seo_twitter_image ) : '';
 		
 		?>
-		<h1><?php esc_html_e('Store SEO setup', 'wc-multivendor-marketplace'); ?></h1>
+		<h1><?php esc_html_e('Kariah SEO setup', 'wc-multivendor-marketplace'); ?></h1>
 		<form method="post">
 			<table class="form-table">
 				<?php
 				$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_vendors_settings_fields_seo', array(
-																																			"wcfmmp-seo-meta-title" => array('label' => __('SEO Title', 'wc-frontend-manager') , 'name' => 'vendor_data[store_seo][wcfmmp-seo-meta-title]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_title, 'hints' => __('SEO Title is shown as the title of your store page', 'wc-frontend-manager') ),
+																																			"wcfmmp-seo-meta-title" => array('label' => __('SEO Title', 'wc-frontend-manager') , 'name' => 'vendor_data[store_seo][wcfmmp-seo-meta-title]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_title, 'hints' => __('SEO Title is shown as the title of your Kariah page', 'wc-frontend-manager') ),
 																																			"wcfmmp-seo-meta-desc" => array('label' => __('Meta Description', 'wc-frontend-manager'), 'name' => 'vendor_data[store_seo][wcfmmp-seo-meta-desc]', 'type' => 'text', 'in_table' => 'yes', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_desc, 'hints' => __('The meta description is often shown as the black text under the title in a search result. For this to work it has to contain the keyword that was searched for and should be less than 156 chars.', 'wc-frontend-manager') ),
-																																			"wcfmmp-seo-meta-keywords" => array('label' => __('Meta Keywords', 'wc-frontend-manager'), 'name' => 'vendor_data[store_seo][wcfmmp-seo-meta-keywords]', 'type' => 'textarea', 'in_table' => 'yes', 'class' => 'wcfm-textarea wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_keywords, 'hints' => __('Insert some comma separated keywords for better ranking of your store page.', 'wc-frontend-manager') ),
+																																			"wcfmmp-seo-meta-keywords" => array('label' => __('Meta Keywords', 'wc-frontend-manager'), 'name' => 'vendor_data[store_seo][wcfmmp-seo-meta-keywords]', 'type' => 'textarea', 'in_table' => 'yes', 'class' => 'wcfm-textarea wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_keywords, 'hints' => __('Insert some comma separated keywords for better ranking of your Kariah page.', 'wc-frontend-manager') ),
 																																		 ), $vendor_id ) );
 					
 				?>
@@ -916,7 +916,7 @@ class WCFMmp_Store_Setup {
 		$pinterest     = isset( $social_fields['pinterest'] ) ? $social_fields['pinterest'] : '';
 		
 		?>
-		<h1><?php esc_html_e('Store Social setup', 'wc-multivendor-marketplace'); ?></h1>
+		<h1><?php esc_html_e('Kariah Social setup', 'wc-multivendor-marketplace'); ?></h1>
 		<form method="post">
 			<table class="form-table">
 				<?php
@@ -951,7 +951,7 @@ class WCFMmp_Store_Setup {
 		?>
 		<h1><?php esc_html_e( apply_filters( 'wcfm_store_setup_complete_heading', __( 'We are done!', 'wc-frontend-manager' ) ) ); ?></h1>
 		<div class="woocommerce-message-wcfm woocommerce-tracker">
-		<p><?php echo esc_html( apply_filters( 'wcfm_store_setup_complete_message', __( "Your store is ready. It's time to experience the things more Easily and Peacefully. Add your products and start counting sales, have fun!!", 'wc-multivendor-marketplace' ) ) ); ?></p>
+		<p><?php echo esc_html( apply_filters( 'wcfm_store_setup_complete_message', __( "Your Kariah is ready. It's time to experience the things more Easily and Peacefully. Add your products and start counting sales, have fun!!", 'wc-multivendor-marketplace' ) ) ); ?></p>
 		</div>
 		<div class="wc-setup-next-steps">
 		  <p class="wc-setup-actions step">

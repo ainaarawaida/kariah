@@ -19,6 +19,13 @@ function luq_style(){
 	visibility: hidden;
 	position:absolute;
 }
+div.jet-form-row button.jet-form-repeater__new{
+  background:#e3e3e3;
+}
+.jet-form__submit.submit-type-reload.add_member_submit{
+  background:#446084;
+  color:white ;
+}
 
 </style>
 

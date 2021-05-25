@@ -218,7 +218,7 @@ $banner_help_text = sprintf(
 		$store_banner_width, $store_banner_height
 );
 
-$mobile_banner_help_text = __( 'This Banner will be visible when someone browse store from Mobile.', 'wc-frontend-manager' ) . ' ' . sprintf(
+$mobile_banner_help_text = __( 'This Banner will be visible when someone browse Kariah from Mobile.', 'wc-frontend-manager' ) . ' ' . sprintf(
 		__('Preferred size is (%sx%s) pixels.', 'wc-frontend-manager' ),
 		$store_banner_mwidth, $store_banner_mheight
 );
@@ -249,7 +249,7 @@ $is_marketplace = wcfm_is_marketplace();
 	  <div id="wcfm_page_load"></div>
 	  
 	  <div class="wcfm-container wcfm-top-element-container">
-	  	<h2><?php _e('Store Settings', 'wc-frontend-manager' ); ?></h2>
+	  	<h2><?php _e('Kariah Settings', 'wc-frontend-manager' ); ?></h2>
 	  	
 	  	<?php 
 	  	do_action( 'wcfm_vendor_setting_header_before', $user_id );
@@ -272,7 +272,7 @@ $is_marketplace = wcfm_is_marketplace();
 				<!-- collapsible -->
 				<div class="page_collapsible" id="wcfm_settings_dashboard_head">
 					<label class="wcfmfa fa-shopping-bag"></label>
-					<?php _e('Store', 'wc-frontend-manager'); ?><span></span>
+					<?php _e('Kariah', 'wc-frontend-manager'); ?><span></span>
 				</div>
 				<div class="wcfm-container wcfm_marketplace_store_settings">
 					<div id="wcfm_settings_form_store_expander" class="wcfm-content">
@@ -282,10 +282,10 @@ $is_marketplace = wcfm_is_marketplace();
 						<div class="store_address">
 						  <?php
 						  $settings_fields_general = apply_filters( 'wcfm_marketplace_settings_fields_general', array(
-						  	                                        "store_name"  => array('label' => __('Store Name', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele wcfm_name_input', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'value' => $store_name ),
-																												"store_slug"  => array('label' => __('Store Slug', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele wcfm_slug_input', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'value' => urldecode($store_slug) ),
-																												"store_email" => array('label' => __('Store Email', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_email ),
-																												"phone"       => array('label' => __('Store Phone', 'wc-frontend-manager') , 'type' => 'text', 'placeholder' => '+123456..', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $phone ),
+						  	                                        "store_name"  => array('label' => __('Kariah  Name', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele wcfm_name_input', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'value' => $store_name ),
+																												"store_slug"  => array('label' => __('Kariah Slug', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele wcfm_slug_input', 'label_class' => 'wcfm_title wcfm_ele', 'custom_attributes' => array( 'required' => true ), 'value' => urldecode($store_slug) ),
+																												"store_email" => array('label' => __('Kariah Email', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $store_email ),
+																												"phone"       => array('label' => __('Kariah Phone', 'wc-frontend-manager') , 'type' => 'text', 'placeholder' => '+123456..', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $phone ),
 																												), $user_id );
 							
 							if( !apply_filters( 'wcfm_is_allow_store_name', true ) || !$WCFMmp->wcfmmp_vendor->is_vendor_sold_by( $user_id ) ) {
@@ -311,15 +311,15 @@ $is_marketplace = wcfm_is_marketplace();
 						
 						<?php if( apply_filters( 'wcfm_is_allow_brand_settings', true ) ) { ?>
 							<div class="wcfm_clearfix"></div><br />
-							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Store Brand Setup', 'wc-frontend-manager' ); ?></h2></div>
+							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Kariah Brand Setup', 'wc-frontend-manager' ); ?></h2></div>
 							<div class="wcfm_clearfix"></div>
 							<div class="store_address">		
 								<?php
 								$settings_fields_general = apply_filters( 'wcfm_marketplace_settings_fields_brand', array(
-																																																	"gravatar" => array('label' => __('Store Logo', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'prwidth' => 150, 'value' => $gravatar_url, 'hints' => __( 'Preferred  size is (125x125) pixels.', 'wc-frontend-manager' ) ),
+																																																	"gravatar" => array('label' => __('Kariah Logo', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'prwidth' => 150, 'value' => $gravatar_url, 'hints' => __( 'Preferred  size is (125x125) pixels.', 'wc-frontend-manager' ) ),
 																																																	
-																																																	"banner_type" => array('label' => __('Store Banner Type', 'wc-frontend-manager') , 'type' => 'select', 'options' => $store_banner_types, 'class' => 'wcfm-select wcfm_ele wcfm-banner-uploads', 'label_class' => 'wcfm_title', 'value' => $banner_type ),
-																																																	"banner" => array('label' => __('Store Banner', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele banner_type_upload banner_type_field banner_type_single_img wcfm-banner-uploads', 'label_class' => 'wcfm_title banner_type_field banner_type_single_img', 'prwidth' => 250, 'value' => $banner_url, 'hints' => $banner_help_text ),
+																																																	"banner_type" => array('label' => __('Kariah Banner Type', 'wc-frontend-manager') , 'type' => 'select', 'options' => $store_banner_types, 'class' => 'wcfm-select wcfm_ele wcfm-banner-uploads', 'label_class' => 'wcfm_title', 'value' => $banner_type ),
+																																																	"banner" => array('label' => __('Kariah Banner', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele banner_type_upload banner_type_field banner_type_single_img wcfm-banner-uploads', 'label_class' => 'wcfm_title banner_type_field banner_type_single_img', 'prwidth' => 250, 'value' => $banner_url, 'hints' => $banner_help_text ),
 																																																	"banner_video" => array('label' => __('Video Banner', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele banner_type_field banner_type_video', 'label_class' => 'wcfm_title banner_type_field banner_type_video','value' => $banner_video, 'hints' => __( 'Insert YouTube video URL.', 'wc-frontend-manager' ) ),
 																																																	"banner_slider"  => array( 'label' => __('Slider', 'wc-frontend-manager'), 'type' => 'multiinput', 'class' => 'wcfm-text wcfm_ele banner_type_upload banner_type_field banner_type_slider wcfm_non_sortable', 'label_class' => 'wcfm_title banner_type_field banner_type_slider', 'value' => $banner_slider, 'hints' => $banner_help_text, 'options' => array(
 																																																																										"image" => array( 'type' => 'upload', 'class' => 'wcfm_gallery_upload banner_type_upload wcfm-banner-uploads', 'prwidth' => 75),
@@ -329,12 +329,12 @@ $is_marketplace = wcfm_is_marketplace();
 																																																	
 																																																	"mobile_banner" => array('label' => __('Mobile Banner', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele wcfm-banner-uploads', 'label_class' => 'wcfm_title', 'prwidth' => 250, 'value' => $mobile_banner_url, 'hints' => $mobile_banner_help_text ),
 																																																	
-																																																	"list_banner_type" => array('label' => __('Store List Banner Type', 'wc-frontend-manager') , 'type' => 'select', 'options' => $store_list_banner_types, 'class' => 'wcfm-select wcfm_ele wcfm-list-banner-uploads', 'label_class' => 'wcfm_title', 'value' => $list_banner_type ),
-																																																	"list_banner" => array('label' => __('Store List Banner', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele wcfm-banner-uploads list_banner_type_upload list_banner_type_field list_banner_type_single_img', 'label_class' => 'wcfm_title list_banner_type_field list_banner_type_single_img', 'prwidth' => 250, 'value' => $list_banner_url, 'hints' => __( 'This Banner will be visible at Store List Page.', 'wc-frontend-manager' ) ),
+																																																	"list_banner_type" => array('label' => __('Kariah List Banner Type', 'wc-frontend-manager') , 'type' => 'select', 'options' => $store_list_banner_types, 'class' => 'wcfm-select wcfm_ele wcfm-list-banner-uploads', 'label_class' => 'wcfm_title', 'value' => $list_banner_type ),
+																																																	"list_banner" => array('label' => __('Kariah List Banner', 'wc-frontend-manager') , 'type' => 'upload', 'class' => 'wcfm-text wcfm_ele wcfm-banner-uploads list_banner_type_upload list_banner_type_field list_banner_type_single_img', 'label_class' => 'wcfm_title list_banner_type_field list_banner_type_single_img', 'prwidth' => 250, 'value' => $list_banner_url, 'hints' => __( 'This Banner will be visible at Kariah List Page.', 'wc-frontend-manager' ) ),
 																																																	
-																																																	"list_banner_video" => array('label' => __('Store List Video Banner', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele list_banner_type_field list_banner_type_video', 'label_class' => 'wcfm_title list_banner_type_field list_banner_type_video','value' => $list_banner_video, 'hints' => __( 'Insert YouTube video URL.', 'wc-frontend-manager' ) ),
+																																																	"list_banner_video" => array('label' => __('Kariah List Video Banner', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele list_banner_type_field list_banner_type_video', 'label_class' => 'wcfm_title list_banner_type_field list_banner_type_video','value' => $list_banner_video, 'hints' => __( 'Insert YouTube video URL.', 'wc-frontend-manager' ) ),
 																																																	
-																																																	"shop_description" => array('label' => __('Shop Description', 'wc-frontend-manager') , 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $shop_description, 'hints' => __( 'This is displayed on your shop page.', 'wc-frontend-manager' ) ),
+																																																	"shop_description" => array('label' => __('Kariah Description', 'wc-frontend-manager') , 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele ' . $rich_editor, 'label_class' => 'wcfm_title', 'value' => $shop_description, 'hints' => __( 'This is displayed on your shop page.', 'wc-frontend-manager' ) ),
 																																																	"shop_shipping_countries" => array('label' => __('Select Shipping Countries', 'wc-frontend-manager'), 'type' => 'select', 'class' => 'wcfm-select wcfm-select2 wcfm_ele', 'label_class' => 'wcfm_title select_title', 'options' => $all_shipping_countries, 'attributes' => array( 'multiple' => 'multiple' ), 'value' => $shop_shipping_countries  )
 																																																	), $user_id );
 								
@@ -386,19 +386,19 @@ $is_marketplace = wcfm_is_marketplace();
 						<?php } ?>
 						
 						<?php if( apply_filters( 'wcfm_is_allow_store_visibility', true ) ) { ?>
-							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Store Visibility Setup', 'wc-frontend-manager' ); ?></h2></div>
+							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Kariah Visibility Setup', 'wc-frontend-manager' ); ?></h2></div>
 							<div class="wcfm_clearfix"></div>
 							<div class="store_address store_visibility_wrap">
 							  <?php
 								$settings_fields_visibility = apply_filters( 'wcfm_marketplace_settings_fields_visibility', array(
-																														"store_name_position" => array( 'label' => __('Store Name Position', 'wc-multivendor-marketplace'), 'type' => 'select', 'options' => array( 'on_banner' => __( 'On Banner', 'wc-multivendor-marketplace' ), 'on_header' => __( 'At Header', 'wc-multivendor-marketplace' ) ), 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title', 'value' => $store_name_position, 'hints' => __( 'Store name position at you Store Page.', 'wc-frontend-manager' ) ),
-																														"store_ppp" => array( 'label' => __('Products per page', 'wc-multivendor-marketplace'), 'type' => 'number', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'value' => $store_ppp, 'attributes' => array( 'min'=> 1, 'step' => 1 ), 'hints' => __( 'No of products at you Store Page.', 'wc-frontend-manager' ) ),
-																														"store_hide_email" => array('label' => __( 'Hide Email from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_email ),
-																														"store_hide_phone" => array('label' => __( 'Hide Phone from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_phone ),
-																														"store_hide_address" => array('label' => __( 'Hide Address from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_address ),
-																														"store_hide_map" => array('label' => __( 'Hide Map from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_map ),
-																														"store_hide_description" => array('label' => __( 'Hide About from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_description ),
-																														"store_hide_policy" => array('label' => __( 'Hide Policy from Store', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_policy ),
+																														"store_name_position" => array( 'label' => __('Kariah Name Position', 'wc-multivendor-marketplace'), 'type' => 'select', 'options' => array( 'on_banner' => __( 'On Banner', 'wc-multivendor-marketplace' ), 'on_header' => __( 'At Header', 'wc-multivendor-marketplace' ) ), 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title', 'value' => $store_name_position, 'hints' => __( 'Kariah name position at you Kariah Page.', 'wc-frontend-manager' ) ),
+																														"store_ppp" => array( 'label' => __('Products per page', 'wc-multivendor-marketplace'), 'type' => 'number', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title', 'value' => $store_ppp, 'attributes' => array( 'min'=> 1, 'step' => 1 ), 'hints' => __( 'No of products at you Kariah Page.', 'wc-frontend-manager' ) ),
+																														"store_hide_email" => array('label' => __( 'Hide Email from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_email ),
+																														"store_hide_phone" => array('label' => __( 'Hide Phone from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_phone ),
+																														"store_hide_address" => array('label' => __( 'Hide Address from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_address ),
+																														"store_hide_map" => array('label' => __( 'Hide Map from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_map ),
+																														"store_hide_description" => array('label' => __( 'Hide About from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_description ),
+																														"store_hide_policy" => array('label' => __( 'Hide Policy from Kariah', 'wc-frontend-manager') , 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $store_hide_policy ),
 																														), $user_id );
 								
 								if( !apply_filters( 'wcfm_is_allow_show_email', true ) ) {
@@ -444,7 +444,7 @@ $is_marketplace = wcfm_is_marketplace();
 						<div id="wcfm_settings_form_store_location_expander" class="wcfm-content">
 						
 							<div class="wcfm_clearfix"></div>
-							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Store Address', 'wc-frontend-manager' ); ?></h2></div>
+							<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Kariah Address', 'wc-frontend-manager' ); ?></h2></div>
 							<div class="wcfm_clearfix"></div>
 							<div class="store_address store_address_wrap">
 								<?php
@@ -466,7 +466,7 @@ $is_marketplace = wcfm_is_marketplace();
 							if ( apply_filters( 'wcfm_is_allow_store_map_location', true ) && ( ( ($wcfm_map_lib == 'google') && !empty( $api_key ) ) || ($wcfm_map_lib == 'leaflet') ) ) {
 								?>
 								<div class="wcfm_clearfix"></div><br />
-								<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Store Location', 'wc-frontend-manager' ); ?></h2></div>
+								<div class="wcfm_vendor_settings_heading"><h2><?php _e( 'Kariah Location', 'wc-frontend-manager' ); ?></h2></div>
 								<div class="wcfm_clearfix"></div>
 								<div class="store_address store_location_wrap">
 									<?php
@@ -869,9 +869,9 @@ $is_marketplace = wcfm_is_marketplace();
 							<div class="store_address">
 								<?php
 								$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_vendors_settings_fields_seo', array(
-																																							"wcfmmp-seo-meta-title" => array('label' => __('SEO Title', 'wc-frontend-manager') , 'name' => 'store_seo[wcfmmp-seo-meta-title]', 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_title, 'hints' => __('SEO Title is shown as the title of your store page', 'wc-frontend-manager') ),
+																																							"wcfmmp-seo-meta-title" => array('label' => __('SEO Title', 'wc-frontend-manager') , 'name' => 'store_seo[wcfmmp-seo-meta-title]', 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_title, 'hints' => __('SEO Title is shown as the title of your Kariah page', 'wc-frontend-manager') ),
 																																							"wcfmmp-seo-meta-desc" => array('label' => __('Meta Description', 'wc-frontend-manager'), 'name' => 'store_seo[wcfmmp-seo-meta-desc]', 'type' => 'textarea', 'attributes' => array( 'maxlength' => 155 ), 'class' => 'wcfm-textarea wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_desc, 'hints' => __('The meta description is often shown as the black text under the title in a search result. For this to work it has to contain the keyword that was searched for and should be less than 156 chars.', 'wc-frontend-manager') ),
-																																							"wcfmmp-seo-meta-keywords" => array('label' => __('Meta Keywords', 'wc-frontend-manager'), 'name' => 'store_seo[wcfmmp-seo-meta-keywords]', 'type' => 'textarea', 'class' => 'wcfm-textarea wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_keywords, 'hints' => __('Insert some comma separated keywords for better ranking of your store page.', 'wc-frontend-manager') ),
+																																							"wcfmmp-seo-meta-keywords" => array('label' => __('Meta Keywords', 'wc-frontend-manager'), 'name' => 'store_seo[wcfmmp-seo-meta-keywords]', 'type' => 'textarea', 'class' => 'wcfm-textarea wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $wcfmmp_seo_meta_keywords, 'hints' => __('Insert some comma separated keywords for better ranking of your Kariah page.', 'wc-frontend-manager') ),
 																																						 ), $user_id ) );
 									
 								?>

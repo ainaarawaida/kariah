@@ -3,12 +3,14 @@ global $wp, $WCFM, $wp_query , $wpdb;
 
 
 if(isset($wp->query_vars['pagename']) && $wp->query_vars['pagename'] == 'my-account' && isset($wp->query_vars['memberInfo']) AND (!$wp->query_vars['memberInfo'])){
+      $user = wp_get_current_user();
       $tablename = $wpdb->prefix . "postmeta";
       $sql = "SELECT * FROM ".$tablename." WHERE meta_key = '_customer_user' AND meta_value = '".get_current_user_id()."'" ;
       $getinfp = $wpdb->get_results( $sql , ARRAY_A );
 
       if(!$getinfp){
-        return $menu_links; 
+        echo "	No Member Info has been made yet. ";
+        return ; 
       }
       foreach($getinfp AS $k => $v){
         $cusid[] = $v['post_id'] ;
@@ -24,7 +26,7 @@ if(isset($wp->query_vars['pagename']) && $wp->query_vars['pagename'] == 'my-acco
       }
       $venid = implode(",", $venid) ;
       $tablename = $wpdb->prefix . "jet_cct_member";
-      $sql = "SELECT * FROM ".$tablename." WHERE subscription_id IN (".$cusid.")" ;
+      $sql = "SELECT * FROM ".$tablename." WHERE (subscription_id IN (".$cusid.") OR email_member = '".$user->user_email."')" ;
       $wcfm_ahli_array = $wpdb->get_results( $sql , ARRAY_A );
           // deb( $wcfm_ahli_array);
  
@@ -47,12 +49,12 @@ if(isset($wp->query_vars['pagename']) && $wp->query_vars['pagename'] == 'my-acco
           <tbody>
           <?php foreach ($wcfm_ahli_array AS $key => $val){   ?>
             <tr>
-                <td><?php echo $val['_ID'] ; ?></td>
+                <td><?php echo "#".$val['_ID'] ; ?></td>
                 <td><?php echo $val['cct_status'] ; ?></td>
                 <?php $url = site_url('/my-account/view-subscription/'.$val['subscription_id']);  ?>
-                <th><a href="<?php echo $url  ; ?>">View<a/></th>
+                <th><a href="<?php echo $url  ; ?>"><?php echo "#".$val['subscription_id'] ; ?><a/></th>
                 <?php $url = site_url('/my-account/view-order/'.$val['cct_single_post_id']);  ?>
-                <th><a href="<?php echo $url  ; ?>">View<a/></th>
+                <th><a href="<?php echo $url  ; ?>"><?php echo "#".$val['cct_single_post_id'] ; ?><a/></th>
                 <?php $url =  wcfmmp_get_store( $val['vendor_id'] ) ;  ?>
                 <th><a href="<?php echo wcfmmp_get_store_url( $val['vendor_id']) ; ?>"><?php echo($url->data->display_name)  ; ?></a></th>
                 <?php $url = site_url('/my-account/memberInfo/'.$val['_ID'].'/?_post_id='.$val['_ID']);  ?>

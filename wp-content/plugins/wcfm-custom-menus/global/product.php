@@ -57,6 +57,9 @@ function after_wcfm_product_submit_redirect($redirect_to){
             $( ".add_member_submit" ).click();
             event.preventDefault();
           });
+
+          
+          $('#tab-title-wcfm_policies_tab.wcfm_policies_tab_tab a').text("Kariah Policies") ; 
         
         
         //clode
@@ -163,7 +166,7 @@ function iconic_display_engraving_text_cart( $item_data, $cart_item ) {
 	return $item_data = array_merge( $item_data, $custom_data );;
 }
 
-add_filter( 'woocommerce_get_item_data', 'iconic_display_engraving_text_cart', 10, 2 );
+//add_filter( 'woocommerce_get_item_data', 'iconic_display_engraving_text_cart', 10, 2 );
 
 
 ?>

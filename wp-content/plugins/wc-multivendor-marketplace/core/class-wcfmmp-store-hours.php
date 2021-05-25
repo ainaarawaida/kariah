@@ -70,7 +70,7 @@ class WCFMmp_Store_Hours {
 		<div class="wcfm-container">
 			<div id="wcfm_settings_form_store_hours_expander" class="wcfm-content">
 			  <div class="wcfm_clearfix"></div>
-			  <h2><?php echo apply_filters( 'wcfm_sold_by_label', '', __( 'Store', 'wc-frontend-manager' ) ) . ' ' . __('Default Store Hours Setting', 'wc-multivendor-marketplace'); ?></h2>
+			  <h2><?php echo apply_filters( 'wcfm_sold_by_label', '', __( 'Store', 'wc-frontend-manager' ) ) . ' ' . __('Default Kariah Hours Setting', 'wc-multivendor-marketplace'); ?></h2>
 				<div class="wcfm_clearfix"></div>
 				<div class="store_address">
 				  <?php
@@ -201,18 +201,18 @@ class WCFMmp_Store_Hours {
 		<!-- collapsible -->
 		<div class="page_collapsible" id="wcfm_settings_form_store_hours_head">
 			<label class="wcfmfa fa-clock fa-clock-o"></label>
-			<?php _e('Store Hours', 'wc-multivendor-marketplace'); ?><span></span>
+			<?php _e('Kariah Hours', 'wc-multivendor-marketplace'); ?><span></span>
 		</div>
 		<div class="wcfm-container">
 			<div id="wcfm_settings_form_store_hours_expander" class="wcfm-content">
 			  <div class="wcfm_clearfix"></div>
-			  <h2><?php _e('Store Hours Setting', 'wc-multivendor-marketplace'); ?></h2>
+			  <h2><?php _e('Kariah Hours Setting', 'wc-multivendor-marketplace'); ?></h2>
 				<div class="wcfm_clearfix"></div>
 				<div class="store_address">
 				
 					<?php
 						$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_vendors_settings_fields_store_hours', array(
-																																																											"wcfm_store_hours" => array( 'label' => __( 'Enable Store Hours', 'wc-multivendor-marketplace'), 'name' => 'wcfm_store_hours[enable]', 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $wcfm_store_hours_enable ),
+																																																											"wcfm_store_hours" => array( 'label' => __( 'Enable Kariah Hours', 'wc-multivendor-marketplace'), 'name' => 'wcfm_store_hours[enable]', 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title checkbox_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $wcfm_store_hours_enable ),
 																																																											"wcfm_disable_purchase_off_time" => array( 'label' => __('Disable Purchase During OFF Time', 'wc-multivendor-marketplace'), 'name' => 'wcfm_store_hours[disable_purchase]', 'type' => 'checkbox', 'class' => 'wcfm-checkbox wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => 'yes', 'dfvalue' => $wcfm_store_hours_disable_purchase ),
 																																																											"wcfm_store_hours_off_days" => array( 'label' => __( 'Set Week OFF', 'wc-multivendor-marketplace'), 'type' => 'select', 'name' => 'wcfm_store_hours[off_days]', 'attributes' => array( 'multiple' => 'multiple', 'style' => 'width: 60%;' ), 'options' => array( 0 => __( 'Monday', 'wc-multivendor-marketplace' ), 1 => __( 'Tuesday', 'wc-multivendor-marketplace' ), 2 => __( 'Wednesday', 'wc-multivendor-marketplace' ), 3 => __( 'Thursday', 'wc-multivendor-marketplace' ), 4 => __( 'Friday', 'wc-multivendor-marketplace' ), 5 => __( 'Saturday', 'wc-multivendor-marketplace' ), 6 => __( 'Sunday', 'wc-multivendor-marketplace') ), 'class' => 'wcfm-select wcfm_ele', 'label_class' => 'wcfm_title', 'value' => $wcfm_store_hours_off_days ),
 																																																										 ), $vendor_id ) );
@@ -317,7 +317,7 @@ class WCFMmp_Store_Hours {
 					
 					if( !wcfm_is_store_page() && apply_filters( 'wcfm_is_allow_product_loop_store_close_message', false ) ) {
 						echo '<div class="wcfm_store_close_msg">';
-						echo apply_filters( 'wcfm_store_close_message', __( 'This store is now closed!', 'wc-multivendor-marketplace' ) );
+						echo apply_filters( 'wcfm_store_close_message', __( 'This Kariah is now closed!', 'wc-multivendor-marketplace' ) );
 						echo '</div>';
 					}
 				} elseif( !has_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart') && $WCFMmp->wcfm_is_store_close ) {
@@ -369,7 +369,7 @@ class WCFMmp_Store_Hours {
 				remove_action( 'wc_quick_view_pro_quick_view_product_details', 'woocommerce_template_single_add_to_cart', 30 );
 				
 				echo '<div class="wcfm_store_close_msg">';
-				echo apply_filters( 'wcfm_store_close_message', __( 'This store is now closed!', 'wc-multivendor-marketplace' ) );
+				echo apply_filters( 'wcfm_store_close_message', __( 'This Kariah is now closed!', 'wc-multivendor-marketplace' ) );
 				echo '</div>';
 			}
 		}

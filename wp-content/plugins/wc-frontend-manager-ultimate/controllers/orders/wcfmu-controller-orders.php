@@ -18,7 +18,7 @@ class WCFMu_Orders_Controller {
 		
 		add_filter( 'wcfm_orders_actions', array( &$this, 'wcfmu_orders_actions' ), 10, 3 );
 		
-		if( apply_filters( 'wcfm_is_allow_vendor_order_delete', false ) && apply_filters( 'wcfm_is_allow_order_delete', true ) ) {
+		if( apply_filters( 'wcfm_is_allow_vendor_order_delete', true ) && apply_filters( 'wcfm_is_allow_order_delete', true ) ) {
 			add_filter( 'wcfmmarketplace_orders_actions', array( &$this, 'wcfmu_vendor_orders_actions' ), 10, 4 );
 		}
 	}

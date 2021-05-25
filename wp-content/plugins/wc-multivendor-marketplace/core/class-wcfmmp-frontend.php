@@ -525,9 +525,9 @@ class WCFMmp_Frontend {
 				echo '<div class="wcfmmp_become_vendor_link">';
 				$wcfm_memberships = get_wcfm_memberships();
 				if( apply_filters( 'wcfm_is_pref_membership', true ) && !empty( $wcfm_memberships ) && apply_filters( 'wcfm_is_allow_my_account_membership_subscribe', true ) ) {
-					echo '<a href="' . apply_filters( 'wcfm_change_membership_url', get_wcfm_membership_url() ) . '">' . apply_filters( 'wcfm_become_vendor_label', __( 'Become a Vendor', 'wc-multivendor-marketplace' ) ) . '</a>';
+					echo '<a href="' . apply_filters( 'wcfm_change_membership_url', get_wcfm_membership_url() ) . '">' . apply_filters( 'wcfm_become_vendor_label', __( 'Become a Kariah Manager', 'wc-multivendor-marketplace' ) ) . '</a>';
 				} else {
-					echo '<a href="' . get_wcfm_registration_page() . '">' . apply_filters( 'wcfm_become_vendor_label', __( 'Become a Vendor', 'wc-multivendor-marketplace' ) ) . '</a>';
+					echo '<a href="' . get_wcfm_registration_page() . '">' . apply_filters( 'wcfm_become_vendor_label', __( 'Become a Kariah Manager', 'wc-multivendor-marketplace' ) ) . '</a>';
 				}
 				echo '</div>';
 			}

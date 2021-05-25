@@ -58,7 +58,7 @@ function misha_log_history_link( $menu_links ){
 
 
 
-  //deb($wcfm_ahli_array);
+  unset($menu_links['downloads']);
   //_post_id
 	$menu_links = array_slice( $menu_links, 0, 1, true ) 
 	+ array( 'memberInfo' => 'Member Info' )

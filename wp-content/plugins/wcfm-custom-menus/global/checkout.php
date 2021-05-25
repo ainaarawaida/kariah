@@ -6,16 +6,18 @@
 add_filter( 'woocommerce_checkout_fields' , 'remove_company_name' );
 function remove_company_name( $fields ) {
    
-
+    $full_name = '' ;
+    $mobile_phone_member = '' ;
+    $email_member = '' ;
     foreach(WC()->cart->cart_contents AS $key => $val){
-        if($val['full_name_member']){
-            $full_name = $val['full_name_member'] ;
+        if(isset($val['full_name_member'])){
+            $full_name = isset($val['full_name_member']) ? $val['full_name_member'] : '' ;
         }
-        if($val['mobile_phone_member']){
-            $mobile_phone_member = $val['mobile_phone_member'] ;
+        if(isset($val['mobile_phone_member'])){
+            $mobile_phone_member = isset($val['mobile_phone_member']) ? $val['mobile_phone_member'] : '' ;
         }
-        if($val['email_member']){
-            $email_member = $val['email_member'] ;
+        if(isset($val['email_member'])){
+            $email_member = isset($val['email_member']) ? $val['email_member'] : ''  ;
         }
       
     }
@@ -84,61 +86,61 @@ if(!function_exists('wdm_add_values_to_order_item_metacheckout_luq'))
         if($checkposttype == 'shop_order'){
             
         
-
+            
             
             foreach($woocommerce->cart->cart_contents AS $key => $val){
                 if($val['full_name_member']){
                     $member['full_name_member'] = $val['full_name_member'] ;
-                    wc_add_order_item_meta($item_id,'Full Name',$member['full_name_member']);  
+                    //wc_add_order_item_meta($item_id,'Full Name',$member['full_name_member']);  
                 }
                 
 
                 if($val['new_ic_member']){
                     $member['new_ic_member'] = $val['new_ic_member'] ;
-                    wc_add_order_item_meta($item_id,'New IC',$member['new_ic_member']);  
+                    //wc_add_order_item_meta($item_id,'New IC',$member['new_ic_member']);  
                 }
                 if($val['picture_member']){
                     $countstr = strlen($val['picture_member']) ;
                     //deb($countstr);exit();
                     $member['picture_member'] = substr($val['picture_member'],2,$countstr) ;
                     $member['picture_member'] = substr($member['picture_member'], 0, $countstr-4) ;
-                    wc_add_order_item_meta($item_id,'Picture',$member['picture_member']);  
+                    //wc_add_order_item_meta($item_id,'Picture',$member['picture_member']);  
                 }
                 if($val['email_member']){
                     $member['email_member'] = $val['email_member'] ;
-                    wc_add_order_item_meta($item_id,'Email',$member['email_member']);  
+                    //wc_add_order_item_meta($item_id,'Email',$member['email_member']);  
                 }
                 if($val['date_birth_member']){
                     $member['date_birth_member'] = $val['date_birth_member'] ;
-                    wc_add_order_item_meta($item_id,'Date Birth',$member['date_birth_member']);  
+                    //wc_add_order_item_meta($item_id,'Date Birth',$member['date_birth_member']);  
                 }
                 if($val['address_member']){
                     $member['address_member'] = $val['address_member'] ;
-                    wc_add_order_item_meta($item_id,'Address',$member['address_member']);  
+                    //wc_add_order_item_meta($item_id,'Address',$member['address_member']);  
                 }
                 if($val['poscode_member']){
                     $member['poscode_member'] = $val['poscode_member'] ;
-                    wc_add_order_item_meta($item_id,'Posscode',$member['poscode_member']);  
+                   //wc_add_order_item_meta($item_id,'Posscode',$member['poscode_member']);  
                 }
                 if($val['city_member']){
                     $member['city_member'] = $val['city_member'] ;
-                    wc_add_order_item_meta($item_id,'City',$member['city_member']);  
+                    //wc_add_order_item_meta($item_id,'City',$member['city_member']);  
                 }
                 if($val['state_member']){
                     $member['state_member'] = $val['state_member'] ;
-                    wc_add_order_item_meta($item_id,'State',$member['state_member']);  
+                    //wc_add_order_item_meta($item_id,'State',$member['state_member']);  
                 }
                 if($val['mobile_phone_member']){
                     $member['mobile_phone_member'] = $val['mobile_phone_member'] ;
-                    wc_add_order_item_meta($item_id,'Mobile Phone',$member['mobile_phone_member']);  
+                    //wc_add_order_item_meta($item_id,'Mobile Phone',$member['mobile_phone_member']);  
                 }
                 if($val['house_phone_member']){
                     $member['house_phone_member'] = $val['house_phone_member'] ;
-                    wc_add_order_item_meta($item_id,'House Phone',$member['house_phone_member']);  
+                    //wc_add_order_item_meta($item_id,'House Phone',$member['house_phone_member']);  
                 }
                 if($val['dependent_repeat_member']){
                     $member['dependent_repeat_member'] = serialize($val['dependent_repeat_member']) ;
-                    wc_add_order_item_meta($item_id,'Dependent',$member['dependent_repeat_member']);  
+                    //wc_add_order_item_meta($item_id,'Dependent',$member['dependent_repeat_member']);  
                 }
             
 

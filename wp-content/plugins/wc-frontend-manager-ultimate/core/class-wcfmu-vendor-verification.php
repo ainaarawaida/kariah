@@ -689,7 +689,7 @@ class WCFMu_Vendor_Verification {
 			case 'social_pending':
 				  $verification_status_class = 'verification_pending';
 				  $verification_status_icon = 'exclamation-circle';
-				  $verification_status_message = __( 'Hey! Complete social verification now and be a verified seller.', 'wc-frontend-manager-ultimate' );
+				  $verification_status_message = __( 'Hey! Complete social verification now and be a verified Manager.', 'wc-frontend-manager-ultimate' );
 			break;
 			
 			case 'reject':
@@ -701,7 +701,7 @@ class WCFMu_Vendor_Verification {
 			default:
 				  $verification_status_class = 'verification_noprompt';
 				  $verification_status_icon = 'info-circle';
-				  $verification_status_message = __( 'Hey! Prompt for verification now and be a verified seller.', 'wc-frontend-manager-ultimate' );
+				  $verification_status_message = __( 'Hey! Prompt for verification now and be a verified manager.', 'wc-frontend-manager-ultimate' );
 			break;
 		}
 		

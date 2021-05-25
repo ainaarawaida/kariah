@@ -101,7 +101,7 @@ $admin_fee_mode = apply_filters( 'wcfm_is_admin_fee_mode', false );
 							<th><?php _e( 'Quantity', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Billing Address', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Shipping Address', 'wc-frontend-manager' ); ?></th>
-							<th><?php _e( 'Gross Sales', 'wc-frontend-manager' ); ?></th>
+							<th><?php _e( 'Sales', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Gross Sales Amount', 'wc-frontend-manager' ); ?></th>
 							<?php if( $admin_fee_mode ) { ?>
 								<th><?php _e( 'Admin Fee', 'wc-frontend-manager' ); ?></th>
@@ -132,7 +132,7 @@ $admin_fee_mode = apply_filters( 'wcfm_is_admin_fee_mode', false );
 							<th><?php _e( 'Quantity', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Billing Address', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Shipping Address', 'wc-frontend-manager' ); ?></th>
-							<th><?php _e( 'Gross Sales', 'wc-frontend-manager' ); ?></th>
+							<th><?php _e( 'Sales', 'wc-frontend-manager' ); ?></th>
 							<th><?php _e( 'Gross Sales Amount', 'wc-frontend-manager' ); ?></th>
 							<?php if( $admin_fee_mode ) { ?>
 								<th><?php _e( 'Fees', 'wc-frontend-manager' ); ?></th>

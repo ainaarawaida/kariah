@@ -1625,8 +1625,8 @@ class WCFMmp_Vendor {
 							}
 							$WCFM->wcfm_fields->wcfm_generate_form_field( apply_filters( 'wcfm_vendor_settings_fields_policies', array(
 																																												"wcfm_policy_tab_title" => array('label' => __('Policy Tab Label', 'wc-frontend-manager') , 'type' => 'text', 'class' => 'wcfm-text wcfm_ele', 'label_class' => 'wcfm_title wcfm_ele', 'value' => $_wcfm_vendor_policy_tab_title ),
-																																												"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_shipping_policy ),
-																																												"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_refund_policy ),
+																																												//"wcfm_shipping_policy" => array('label' => __('Shipping Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_shipping_policy ),
+																																												//"wcfm_refund_policy" => array('label' => __('Refund Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_refund_policy ),
 																																												"wcfm_cancellation_policy" => array('label' => __('Cancellation/Return/Exchange Policy', 'wc-frontend-manager'), 'type' => $wpeditor, 'class' => 'wcfm-textarea wcfm_ele wcfm_full_ele wcfm_custom_field_editor ' . $rich_editor, 'label_class' => 'wcfm_title wcfm_full_title', 'value' => $_wcfm_vendor_cancellation_policy ),
 																																												), $vendor_id ) );
 							?>
@@ -2226,7 +2226,7 @@ class WCFMmp_Vendor {
 						  
 							<?php if( !wcfm_empty($shipping_policy) ) { ?>
 								<tr>
-									<th colspan="3" style="background-color: #eeeeee;padding: 1em 1.41575em;line-height: 1.5;"><strong><?php echo apply_filters('wcfm_shipping_policies_heading', __('Shipping Policy', 'wc-frontend-manager')); ?></strong></th>
+									<th colspan="3" style="background-color: #eeeeee;padding: 1em 1.41575em;line-height: 1.5;"><strong><?php echo apply_filters('wcfm_shipping_policies_heading', __('Shipping Policyx', 'wc-frontend-manager')); ?></strong></th>
 									<td colspan="5" style="background-color: #f8f8f8;padding: 1em;"><?php echo $shipping_policy; ?></td>
 								</tr>
 							<?php } ?>
@@ -2565,7 +2565,7 @@ class WCFMmp_Vendor {
 			if( $gravatar ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['gravatar'] = __( 'Add Store Logo', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['gravatar'] = __( 'Add Kariah Logo', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2573,7 +2573,7 @@ class WCFMmp_Vendor {
 			if( $store_name ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['store_name'] = __( 'Add Store Name', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['store_name'] = __( 'Add Kariah Name', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2581,7 +2581,7 @@ class WCFMmp_Vendor {
 			if( $banner  ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['banner'] = __( 'Add Store Banner', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['banner'] = __( 'Add Kariah Banner', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2589,7 +2589,7 @@ class WCFMmp_Vendor {
 			if(  $phone ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['phone'] = __( 'Add Store Phone', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['phone'] = __( 'Add Kariah Phone', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2597,7 +2597,7 @@ class WCFMmp_Vendor {
 			if( $shop_description ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['phone'] = __( 'Add Store Description', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['phone'] = __( 'Add Kariah Description', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2605,7 +2605,7 @@ class WCFMmp_Vendor {
 			if( $street_1 && $country ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['address'] = __( 'Add Store Address', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['address'] = __( 'Add Kariah Address', 'wc-multivendor-marketplace' );
 			}
 		
 		  if( apply_filters( 'wcfm_is_allow_store_map_location', true ) ) {
@@ -2615,7 +2615,7 @@ class WCFMmp_Vendor {
 				if ( ( ( ($wcfm_map_lib == 'google') && !empty( $api_key ) ) || ($wcfm_map_lib == 'leaflet') ) && $store_location ) {
 					$profile_complete_percent += $component_percent;
 				} else {
-					$profile_remaining_items['location'] = __( 'Add Store Location', 'wc-multivendor-marketplace' );
+					$profile_remaining_items['location'] = __( 'Add Kariah Location', 'wc-multivendor-marketplace' );
 				}
 			}
 		}
@@ -2632,7 +2632,7 @@ class WCFMmp_Vendor {
 			if( $_wcfm_vendor_policy_tab_title && $_wcfm_vendor_shipping_policy && $_wcfm_vendor_refund_policy && $_wcfm_vendor_cancellation_policy ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['policies'] = __( 'Setup Store Policies', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['policies'] = __( 'Setup Kariah Policies', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2640,7 +2640,7 @@ class WCFMmp_Vendor {
 			if( $vendor_customer_phone && $vendor_customer_email && $vendor_csd_return_address1 && $vendor_csd_return_country ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['support'] = __( 'Setup Store Customer Support', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['support'] = __( 'Setup Kariah Customer Support', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -2648,7 +2648,7 @@ class WCFMmp_Vendor {
 			if( $wcfmmp_seo_meta_title && $wcfmmp_seo_meta_desc && $wcfmmp_seo_meta_keywords  ) {
 				$profile_complete_percent += $component_percent;
 			} else {
-				$profile_remaining_items['seo'] = __( 'Setup Store SEO', 'wc-multivendor-marketplace' );
+				$profile_remaining_items['seo'] = __( 'Setup Kariah SEO', 'wc-multivendor-marketplace' );
 			}
 		}
 		
@@ -3051,7 +3051,7 @@ class WCFMmp_Vendor {
 			if( !$is_allow ) {
 				// We display an error message
 				wc_clear_notices();
-				wc_add_notice( __( "Item(s) from one store already in your cart. First checkout with those and then purchase from other stores!", "wc-multivendor-marketplace" ), 'error' );
+				wc_add_notice( __( "Item(s) from one Kariah already in your cart. First checkout with those and then purchase from other Kariah!", "wc-multivendor-marketplace" ), 'error' );
 			}
 		}
 		
@@ -3093,7 +3093,7 @@ class WCFMmp_Vendor {
 					'wcfm_yith_ywraq_ajax_multivendor_request_quote_validation_json',
 					array(
 						'result'  => 'true',
-						'message' => apply_filters( 'wcfm_yith_ywraq_ajax_multivendor_request_quote_validation_message', __( "Item(s) from one store already in your quote list. First send request for those.", "wc-multivendor-marketplace" ) ),
+						'message' => apply_filters( 'wcfm_yith_ywraq_ajax_multivendor_request_quote_validation_message', __( "Item(s) from one Kariah already in your quote list. First send request for those.", "wc-multivendor-marketplace" ) ),
 						'rqa_url'    => $raq_page_url,
 					)
 				)

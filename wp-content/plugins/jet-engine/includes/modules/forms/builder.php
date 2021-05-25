@@ -1574,8 +1574,6 @@ if ( ! class_exists( 'Jet_Engine_Booking_Forms_Builder' ) ) {
 				'name'    => '_jet_engine_refer',
 			) );
 
-			$this->rows = apply_filters( 'jet-engine/forms/post-render/' . $this->form_id, $this->rows );	
-
 			foreach ( $this->rows as $row ) {
 
 				$this->is_hidden_row     = true;
