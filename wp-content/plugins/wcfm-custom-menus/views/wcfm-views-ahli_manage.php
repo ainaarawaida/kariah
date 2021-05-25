@@ -102,6 +102,9 @@ if( wcfm_is_vendor() && isset($ahli_id)) {
 			<h2><?php _e( 'Member ID #', 'wc-frontend-manager' ); echo (isset($ahli_id) ? $ahli_id : '') ;  ?></h2>
 			<span class="order-status"><?php echo isset($wcfm_ahli_array[0]['cct_status']) ? $wcfm_ahli_array[0]['cct_status'] : 'Add New Member' ; ?></span>
 		
+			<?php  if(isset($wcfm_ahli_array[0]['subscription_id'])) { ?>
+			<a id="subscription_detail" class="add_new_wcfm_ele_dashboard text_tip" target="_blank" href="<?php echo get_wcfm_custom_menus_url('subscriptions-manage').$wcfm_ahli_array[0]['subscription_id'] ; ?>" data-tip="Payment Subscription Info" data-hasqtip="17" aria-describedby="qtip-17"><span class="wcfmfa fa-file-pdf"></span><span class="text">Payment Subscription Info</span></a>
+			<?php } ?>
 			<div class="wcfm-clearfix"></div>
 		</div>
 	  <div class="wcfm-clearfix"></div><br />
@@ -110,9 +113,7 @@ if( wcfm_is_vendor() && isset($ahli_id)) {
 		<div class="wcfm-container">
 			<div id="ahli_details_general_expander" class="wcfm-content">
 			
-			<?php  if(isset($wcfm_ahli_array[0]['subscription_id'])) { ?>
-			<a id="subscription_detail" class="add_new_wcfm_ele_dashboard text_tip" target="_blank" href="<?php echo get_wcfm_custom_menus_url('subscriptions-manage').$wcfm_ahli_array[0]['subscription_id'] ; ?>" data-tip="Payment Subscription Info" data-hasqtip="17" aria-describedby="qtip-17"><span class="wcfmfa fa-file-pdf"></span><span class="text">Payment Subscription Info</span></a>
-			<?php } ?>
+		
 			<h6>Personal Information</h6>
 
 					<?php echo do_shortcode('[jet_engine component="forms" _form_id="275"]') ;  ?>

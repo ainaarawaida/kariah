@@ -1,0 +1,20 @@
+2021-05-25T00:55:22+00:00 CRITICAL Uncaught Error: Cannot use object of type Jet_Engine_Booking_Forms_Builder as array in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php:1608
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(64): Jet_Engine_Booking_Forms_Builder->render_form(true)
+#1 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\classes\shortcodes.php(51): apply_filters('jet-engine/shor...', '', Array)
+#6 C:\laragon\www\kariah\wp-includes\shortcod in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1608
+
+2021-05-25T00:56:03+00:00 CRITICAL Uncaught Error: Cannot use object of type Jet_Engine_Booking_Forms_Builder as array in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php:1608
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(64): Jet_Engine_Booking_Forms_Builder->render_form(true)
+#1 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\classes\shortcodes.php(51): apply_filters('jet-engine/shor...', '', Array)
+#6 C:\laragon\www\kariah\wp-includes\shortcod in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1608
+

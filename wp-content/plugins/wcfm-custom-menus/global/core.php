@@ -336,7 +336,7 @@ class WCFMmp_Gateway_ToyyibPay {
 }
 function misha_change_wc_gateway_if_emptyluq( $allowed_gateways ){
 	global $wp, $woocommerce;
-	if(isset($wp->query_vars) && $wp->query_vars['pagename'] == 'checkout' && isset($wp->query_vars['order-pay'])){
+	if(isset($wp->query_vars['pagename']) && $wp->query_vars['pagename'] == 'checkout' && isset($wp->query_vars['order-pay'])){
 		
 	
 		//deb( $wp->query_vars['order-pay']);exit();
@@ -374,7 +374,7 @@ function misha_change_wc_gateway_if_emptyluq( $allowed_gateways ){
 		Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account." ;
 		
 		
-		
+		//deb($allowed_gateways);
 
 	}
 	

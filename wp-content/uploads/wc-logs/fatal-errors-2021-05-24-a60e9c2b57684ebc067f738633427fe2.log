@@ -1,2 +1,123 @@
 2021-05-24T10:38:16+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-products-manage.php on line 117
 
+2021-05-24T15:58:46+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(25, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 25, Object(WC_Order_Item_Product), 306)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T15:59:18+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(26, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 26, Object(WC_Order_Item_Product), 307)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T16:00:18+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(27, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 27, Object(WC_Order_Item_Product), 308)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T16:04:00+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(30, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 30, Object(WC_Order_Item_Product), 311)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T16:04:25+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(31, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 31, Object(WC_Order_Item_Product), 312)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T16:04:54+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:63
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(32, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 32, Object(WC_Order_Item_Product), 313)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 63
+
+2021-05-24T16:22:34+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(46, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 46, Object(WC_Order_Item_Product), 327)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+
+2021-05-24T16:22:58+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(47, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 47, Object(WC_Order_Item_Product), 328)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+
+2021-05-24T16:23:38+00:00 CRITICAL Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(48, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 48, Object(WC_Order_Item_Product), 329)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+
+2021-05-24T16:26:45+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:66
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(50, Object(WC_Order_Item_Product))
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 50, Object(WC_Order_Item_Product), 331)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woo in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 66
+
+2021-05-24T16:33:53+00:00 CRITICAL Uncaught Error: Call to a member function set_total() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:58
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(55, Object(WC_Order_Item_Product))
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 55, Object(WC_Order_Item_Product), 336)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 58
+
+2021-05-24T23:23:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:122
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luqformproductfilter(false, Array)
+#1 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(33): apply_filters('jet-engine/form...', false, Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#4 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#5 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#6 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\kariah\wp-content\pl in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 122
+

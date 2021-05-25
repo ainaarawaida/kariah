@@ -1,0 +1,149 @@
+[24-May-2021 16:17:37 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:17:37 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:18:40 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:18:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:20:04 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:20:04 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:20:43 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:20:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:04 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:04 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:34 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(46, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 46, Object(WC_Order_Item_Product), 327)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+[24-May-2021 16:22:58 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:22:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(47, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 47, Object(WC_Order_Item_Product), 328)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+[24-May-2021 16:23:38 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:23:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:23:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_order_id() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:65
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(48, Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 48, Object(WC_Order_Item_Product), 329)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 65
+[24-May-2021 16:24:43 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:24:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:26:45 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:26:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:26:45 UTC] PHP Notice:  Undefined variable: wpdb in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 66
+[24-May-2021 16:26:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:66
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(50, Object(WC_Order_Item_Product))
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 50, Object(WC_Order_Item_Product), 331)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\woo in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 66
+[24-May-2021 16:27:14 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:27:14 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:28:15 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:28:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:29:51 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:29:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:32:47 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:32:47 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:33:53 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:33:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:33:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_total() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php:58
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): post_updatedluq1(55, Object(WC_Order_Item_Product))
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-item-type-data-store.php(91): do_action('woocommerce_upd...', 55, Object(WC_Order_Item_Product), 336)
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): Abstract_WC_Order_Item_Type_Data_Store->update(Object(WC_Order_Item_Product))
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(216): WC_Data_Store->update(Object(WC_Order_Item_Product))
+#6 C:\laragon\www\kariah\wp-content\plugins\ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 58
+[24-May-2021 16:36:34 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:36:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:36:34 UTC] PHP Notice:  Undefined variable: order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 57
+[24-May-2021 16:37:43 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:37:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:40:29 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:40:29 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:42:07 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:42:07 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:42:48 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:42:48 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:45:42 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:45:42 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:47:33 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:47:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:48:09 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:48:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:49:15 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orders-manage.php on line 103
+[24-May-2021 16:49:45 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:49:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:53:35 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:53:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:53:35 UTC] WordPress database error Unknown column 'item_total' in 'field list' for query UPDATE `wp_wcfm_marketplace_orders_meta` SET `item_total` = '645' WHERE `order_commission_id` = '25' made by do_action('wp_ajax_wcfm_ajax_controller'), WP_Hook->do_action, WP_Hook->apply_filters, WCFM_Ajax->wcfm_ajax_controller, do_action('after_wcfm_ajax_controller'), WP_Hook->do_action, WP_Hook->apply_filters, WCFMu_Orders->wcorder_ajax_controller, WCFMu_Orders_Manage_Controller->__construct, WCFMu_Orders_Manage_Controller->processing, do_action('wcfm_manual_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, WCFMmp_Commission->wcfmmp_checkout_order_processed, do_action('wcfmmp_order_item_processed'), WP_Hook->do_action, WP_Hook->apply_filters, wcfm_manual_order_processedluq1
+[24-May-2021 16:58:17 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 16:58:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 17:00:22 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 17:00:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 75
+[24-May-2021 22:39:52 UTC] PHP Fatal error:  Cannot redeclare luqformproduct() (previously declared in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:112) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 147
+[24-May-2021 22:39:53 UTC] PHP Fatal error:  Cannot redeclare luqformproduct() (previously declared in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:112) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 147
+[24-May-2021 22:41:13 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php on line 36
+[24-May-2021 22:42:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 114
+[24-May-2021 22:42:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 114
+[24-May-2021 23:22:52 UTC] PHP Notice:  Undefined variable: form_id in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 122
+[24-May-2021 23:23:09 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:122
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luqformproductfilter(false, Array)
+#1 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(33): apply_filters('jet-engine/form...', false, Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#4 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#5 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#6 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\kariah\wp-content\pl in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 122
+[25-May-2021 00:55:22 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Jet_Engine_Booking_Forms_Builder as array in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php:1608
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(64): Jet_Engine_Booking_Forms_Builder->render_form(true)
+#1 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\classes\shortcodes.php(51): apply_filters('jet-engine/shor...', '', Array)
+#6 C:\laragon\www\kariah\wp-includes\shortcod in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1608
+[25-May-2021 00:56:03 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Jet_Engine_Booking_Forms_Builder as array in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php:1608
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\render\booking-form.php(64): Jet_Engine_Booking_Forms_Builder->render_form(true)
+#1 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\components\listings\render\base.php(87): Jet_Engine\Forms\Render\Booking_Form->render()
+#2 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\shortcode.php(180): Jet_Engine_Render_Base->get_content()
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): Jet_Engine_Forms_Shortcode->do_shortcode('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\classes\shortcodes.php(51): apply_filters('jet-engine/shor...', '', Array)
+#6 C:\laragon\www\kariah\wp-includes\shortcod in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1608
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: w in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1384
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: x in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1393
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1399
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1467
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1469
+[25-May-2021 00:58:59 UTC] PHP Notice:  Undefined index: w in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1475
+[25-May-2021 01:01:01 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1399
+[25-May-2021 01:01:01 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1467
+[25-May-2021 01:01:01 UTC] PHP Notice:  Undefined index: settings in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1469
+[25-May-2021 01:02:09 UTC] PHP Notice:  Undefined index: name in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1467
+[25-May-2021 01:02:38 UTC] PHP Notice:  Undefined index: name in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1467
+[25-May-2021 01:07:58 UTC] PHP Notice:  Undefined property: Jet_Engine_Booking_Forms_Builder::$render_row in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1589
