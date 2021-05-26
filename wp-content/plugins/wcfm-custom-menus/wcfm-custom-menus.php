@@ -340,3 +340,4 @@ require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/my-account_membe
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orders-manage.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/store-setup.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/vendor-register.php' );
+require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orderslist.php' );

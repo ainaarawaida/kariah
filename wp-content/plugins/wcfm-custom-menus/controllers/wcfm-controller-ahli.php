@@ -214,10 +214,11 @@ class WCFM_ahli_Controller {
 				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['_ID'];
 				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['_ID'];
 				
-				//deb(get_wcfm_custom_menus_url( 'wcfm-ahli_detail' ));exit();
+				//deb($wcfm_ahli_array);exit();
 				// Action
 				$actions = '';
-				$actions .= '<a class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('subscriptions-manage').$wcfm_ahli_array[0]['subscription_id'] .'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-file-pdf text_tip" data-tip="' . esc_attr__( 'Payment Subscription Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
+				$actions .= '<a target="_blank" class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('orders-details').$wcfm_ahli_single['cct_single_post_id'].'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-first-order text_tip" data-tip="' . esc_attr__( 'Order Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
+				$actions .= '<a target="_blank" class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('subscriptions-manage').$wcfm_ahli_single['subscription_id'].'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-file-pdf text_tip" data-tip="' . esc_attr__( 'Payment Subscription Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$actions .= '<a class="wcfm_ahli_delete wcfm-action-icon" href="#" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-trash-alt text_tip" data-tip="' . esc_attr__( 'Delete', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$wcfm_ahli_json_arr[$index][] =  $actions .= '<a class="wcfm-action-icon" href="' . get_wcfm_custom_menus_url( 'wcfm-ahli_manage' )."?_post_id=".$wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-eye text_tip" data-tip="' . esc_attr__( 'View Details', 'wc-frontend-manager' ) . '"></span></a>';
 				

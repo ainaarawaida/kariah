@@ -49,6 +49,44 @@ function ced_remove_billing_fields( $fields ) {
 }
 
 
+add_action( 'woocommerce_after_checkout_validation', 'woocommerce_after_checkout_validation_luq_member', 10, 2);
+function woocommerce_after_checkout_validation_luq_member( $fields, $errors ){
+    global $wp,$woocommerce,$wpdb;
+
+    foreach($woocommerce->cart->get_cart() as $key => $val ) {
+        $_product = $val['data'];
+    
+        $pcategories = get_the_terms($_product->id, 'product_cat');
+        if( !empty($pcategories) ) {
+            foreach($pcategories as $pkey => $pcategory) {
+                $check_categories[] = $pcategory->name;
+            }
+        }
+       
+        if($val['new_ic_member']){
+            $member['new_ic_member'] = $val['new_ic_member'] ;
+            //wc_add_order_item_meta($item_id,'Email',$member['email_member']);  
+        }
+
+    }   
+    
+    if(!in_array("Members", $check_categories)){
+        return ; 
+    }
+    $vendor_id   = wcfm_get_vendor_id_by_post( $_product->id );
+    $tablename = $wpdb->prefix . "jet_cct_member";
+    $sql = "SELECT * FROM ".$tablename." WHERE new_ic_member = '".$member['new_ic_member']."' AND vendor_id = '".$vendor_id."'" ;
+    $wcfm_ahli_array = $wpdb->get_results( $sql , ARRAY_A );
+    
+   
+    if($wcfm_ahli_array){
+        $errors->add( 'validation', 'Main IC Number exist. '.$member['new_ic_member'].' Please contact Kariah Manager for registration' );
+    }
+   
+   
+}
+
+
 
 add_action('woocommerce_new_order_item','wdm_add_values_to_order_item_metacheckout_luq',1,3);
 if(!function_exists('wdm_add_values_to_order_item_metacheckout_luq'))
@@ -177,9 +215,7 @@ if(!function_exists('wdm_add_values_to_order_item_metacheckout_luq'))
                 //update
                 $member['cct_modified'] = date("Y-m-d h:i:s") ;
                 $data = $member; // NULL value.
-                $format = [ NULL ];  // Ignored when corresponding data is NULL, set to NULL for readability.
                 $where = [ 'new_ic_member' => $member['new_ic_member'], 'vendor_id' => $vendor_id ]; // NULL value in WHERE clause.
-                $where_format = [ NULL ];  // Ignored when corresponding WHERE data is NULL, set to NULL for readability.
                 $wpdb->update( $wpdb->prefix . 'jet_cct_member', $data, $where ); // Also works in this case.
         
         

@@ -60,10 +60,10 @@ if(!function_exists('wcfm_restriction_message_show')) {
 									if( $wcfm_membership && function_exists( 'wcfm_is_valid_membership' ) && wcfm_is_valid_membership( $wcfm_membership ) ) {
 										printf( __( '%s' . $feature . '%s: Your %s membership level doesn\'t give you permission to access this page. Please upgrade your membership, or contact the %sWebsite Manager%s for assistance.', 'wc-frontend-manager' ), '<strong>', '</strong>', '<strong>' . get_the_title( $wcfm_membership ) . '</strong>', '<strong>', '</strong>' );	
 									} else {
-										printf( __( '%s' . $feature . '%s: You don\'t have permission to access this page. Please contact your %sStore Admin%s for assistance.', 'wc-frontend-manager' ), '<strong>', '</strong>', '<strong>', '</strong>' );
+										printf( __( '%s' . $feature . '%s: You don\'t have permission to access this page. Please contact your %sKariah Admin%s for assistance.', 'wc-frontend-manager' ), '<strong>', '</strong>', '<strong>', '</strong>' );
 									}
 								} else {
-									printf( __( '%s' . $feature . '%s: You don\'t have permission to access this page. Please contact your %sStore Admin%s for assistance.', 'wc-frontend-manager' ), '<strong>', '</strong>', '<strong>', '</strong>' );
+									printf( __( '%s' . $feature . '%s: You don\'t have permission to access this page. Please contact your %sKariah Admin%s for assistance.', 'wc-frontend-manager' ), '<strong>', '</strong>', '<strong>', '</strong>' );
 								}
 							}
 							?>

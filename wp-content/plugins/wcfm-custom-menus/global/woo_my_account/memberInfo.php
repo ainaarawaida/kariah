@@ -53,8 +53,23 @@ if(isset($wp->query_vars['pagename']) && $wp->query_vars['pagename'] == 'my-acco
                 <td><?php echo $val['cct_status'] ; ?></td>
                 <?php $url = site_url('/my-account/view-subscription/'.$val['subscription_id']);  ?>
                 <th><a href="<?php echo $url  ; ?>"><?php echo "#".$val['subscription_id'] ; ?><a/></th>
-                <?php $url = site_url('/my-account/view-order/'.$val['cct_single_post_id']);  ?>
-                <th><a href="<?php echo $url  ; ?>"><?php echo "#".$val['cct_single_post_id'] ; ?><a/></th>
+                <?php 
+                  $subscription = new WC_Subscription( $val['subscription_id'] );
+                  //$order_id = method_exists( $subscription, 'get_parent_id' ) ? $subscription->get_parent_id() : $subscription->order->id;
+                  //$order = method_exists( $subscription, 'get_parent' ) ? $subscription->get_parent() : $subscription->order;
+                  $relared_orders_ids_array = $subscription->get_related_orders();
+                  sort($relared_orders_ids_array);
+                ?>
+              
+                <th>
+                <?php 
+                foreach($relared_orders_ids_array AS $key2 => $val2){ 
+                  $url = site_url('/my-account/view-order/'.$val2);  
+                ?>
+                  <a href="<?php echo $url  ; ?>"><?php echo "#".$val2 ; ?><a/>
+                <?php } ?>
+                  
+                </th>
                 <?php $url =  wcfmmp_get_store( $val['vendor_id'] ) ;  ?>
                 <th><a href="<?php echo wcfmmp_get_store_url( $val['vendor_id']) ; ?>"><?php echo($url->data->display_name)  ; ?></a></th>
                 <?php $url = site_url('/my-account/memberInfo/'.$val['_ID'].'/?_post_id='.$val['_ID']);  ?>

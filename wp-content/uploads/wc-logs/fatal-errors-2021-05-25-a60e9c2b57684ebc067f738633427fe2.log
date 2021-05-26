@@ -18,3 +18,72 @@ Stack trace:
 #5 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\classes\shortcodes.php(51): apply_filters('jet-engine/shor...', '', Array)
 #6 C:\laragon\www\kariah\wp-includes\shortcod in C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\builder.php on line 1608
 
+2021-05-25T15:56:34+00:00 CRITICAL Uncaught Error: Call to a member function get_row() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\ahli_manage.php:30
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): luqformahlimanage(Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(1104): do_action('jet-engine-book...', Array, '275', Object(Jet_Engine_Booking_Forms_Notifications))
+#4 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): Jet_Engine_Booking_Forms_Notifications->hook(Array)
+#5 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(208): do_action('jet- in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\ahli_manage.php on line 30
+
+2021-05-25T16:06:44+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\ahli_manage.php:32
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): luqformahlimanage(Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(1104): do_action('jet-engine-book...', Array, '275', Object(Jet_Engine_Booking_Forms_Notifications))
+#4 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): Jet_Engine_Booking_Forms_Notifications->hook(Array)
+#5 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(208): do_action('jet- in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\ahli_manage.php on line 32
+
+2021-05-25T16:28:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:127
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): luqformproduct(Array)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(1104): do_action('jet-engine-book...', Array, '275', Object(Jet_Engine_Booking_Forms_Notifications))
+#4 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): Jet_Engine_Booking_Forms_Notifications->hook(Array)
+#5 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\laragon\www\kariah\wp-content\plugins\jet-engine\includes\modules\forms\notifications.php(208): do_action('jet-engine/ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 127
+
+2021-05-25T22:40:58+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on boolean in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php:523
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\admin\OrderPage.php(70): WCOA\classes\com\Order->get_time_field(false)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCOA\classes\admin\OrderPage->display_order_custom_fields(Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(1540): apply_filters('woocommerce_adm...', Array)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php(51): WCFM_Library->init_address_fields()
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 523
+
+2021-05-25T22:42:19+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on boolean in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php:523
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\admin\OrderPage.php(70): WCOA\classes\com\Order->get_time_field(false)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCOA\classes\admin\OrderPage->display_order_custom_fields(Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(1540): apply_filters('woocommerce_adm...', Array)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php(51): WCFM_Library->init_address_fields()
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 523
+
+2021-05-25T23:30:05+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orderslist.php:37
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(289): woocommerce_order_status_changed_luq(440, 'processing', 'completed')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-order.php(373): do_action('woocommerce_ord...', 440, 'processing', 'completed', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 C:\laragon\www\kariah\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->save()
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(590): WC_Order->update_status('com in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\orderslist.php on line 37
+
+2021-05-25T23:39:21+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 220
+
+2021-05-25T23:41:41+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 220
+
+2021-05-25T23:42:01+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 220
+

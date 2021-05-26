@@ -513,10 +513,10 @@ class Order
 	{
 		global $wp;
 		
-		if($wp->query_vars['pagename'] == 'store-manager' && isset($wp->query_vars['orders-details'])){
+		if($wp->query_vars['pagename'] == 'kariah-manager' && isset($wp->query_vars['orders-details'])){
 			$order = wc_get_order($wp->query_vars['orders-details'] );
 		}
-		if($wp->query_vars['pagename'] == 'store-manager' && isset($wp->query_vars['subscriptions-manage'])){
+		if($wp->query_vars['pagename'] == 'kariah-manager' && isset($wp->query_vars['subscriptions-manage'])){
 			$order = wc_get_order($wp->query_vars['subscriptions-manage'] );
 		}
 		

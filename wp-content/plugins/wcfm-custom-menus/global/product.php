@@ -22,14 +22,15 @@ function after_wcfm_product_submit_redirect($redirect_to){
 
   add_action('wp_footer', 'productluqjs');
   function productluqjs() {
-   global $wp;
+   global $wp, $product ;
     
     if(isset($wp->query_vars['post_type']) && $wp->query_vars['post_type'] == 'product'){
-
-      
+      $product_id = $product->get_id() ; 
       ?>
       
       <script>
+
+      var product_id = <?php echo json_encode($product_id) ; ?> ;
 
       jQuery( document ).ready( function( $ ) {
       
@@ -45,14 +46,15 @@ function after_wcfm_product_submit_redirect($redirect_to){
         
         //$('button.single_add_to_cart_button.button.alt').addClass("luqhide");
         $('.add_member_submit').addClass("luqhide");
+        $('#full_name_member').parent().parent().before("<input type='hidden' name='product_id' value='"+product_id+"'>");
         $( "form.cart button.single_add_to_cart_button" ).click(function(event) {
           var $clone = $('div.summary.entry-summary form.cart').children().clone(true,true);
           $('button.jet-form__submit.submit-type-reload.add_member_submit').before($clone);
 
           getsubtotal = $('li.wc-pao-subtotal-line p.price span.amount').html();
         
-          $('button.jet-form__submit.submit-type-reload.add_member_submit').before("<input type='text' name='subtotal' value='"+getsubtotal+"'>");
-
+          $('button.jet-form__submit.submit-type-reload.add_member_submit').before("<input type='hidden' name='subtotal' value='"+getsubtotal+"'>");
+         
 
             $( ".add_member_submit" ).click();
             event.preventDefault();
@@ -115,17 +117,16 @@ function after_wcfm_product_submit_redirect($redirect_to){
 
 
 add_action ('jet-engine-booking/member' , 'luqformproduct');
-function luqformproduct(){
-
+function luqformproduct($data){
   $getlink = explode('/', $_POST['_jet_engine_refer']);
   if(!in_array("product", $getlink)){
    return;
   }
  
   global $woocommerce;
+  //deb($_POST['product_id']);
   $str = filter_var($_POST['subtotal'], FILTER_SANITIZE_NUMBER_FLOAT,FILTER_FLAG_ALLOW_FRACTION);
-  //deb($_POST);exit();
-  WC()->cart->add_to_cart( $_POST['post_id'], $quantity = 1, $variation_id = 0, $variation = array(), $cart_item_data = $_POST  ) ;
+  WC()->cart->add_to_cart( $_POST['product_id'], $quantity = 1, $variation_id = 0, $variation = array(), $cart_item_data = $_POST  ) ;
   //deb(WC()->cart);exit();
   wp_redirect(wc_get_checkout_url());
   exit();
@@ -139,10 +140,10 @@ function luqformproduct(){
 
 
  
-  deb((float)$str);exit();
-  preg_match_all('!\d+!', $str, $matches);
-  print_r($matches);
-  deb($_POST);exit();
+  //deb((float)$str);exit();
+  //preg_match_all('!\d+!', $str, $matches);
+  //print_r($matches);
+  //deb($_POST);exit();
 }
 
 
