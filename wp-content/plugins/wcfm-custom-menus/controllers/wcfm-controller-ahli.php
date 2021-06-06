@@ -198,31 +198,45 @@ class WCFM_ahli_Controller {
 				// cct_created
 				$wcfm_ahli_json_arr[$index][] =  date("d-M-Y H:i:s", strtotime($wcfm_ahli_single['cct_created'])); 
 				
-				// Vendor
+				// Kariah
 				$wcfm_ahli_json_arr[$index][] =  wcfm_get_vendor_store( $wcfm_ahli_single['vendor_id'] );
 
 				// Status Ahli
 				$wcfm_ahli_json_arr[$index][] =   $wcfm_ahli_single['cct_status'];
 
-				// Gross Sales
-				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['subscription_id'];
+				// Order Related Id
+				$subscription = new WC_Subscription( $wcfm_ahli_single['subscription_id'] );
+				$relared_orders_ids_array = $subscription->get_related_orders();
+				sort($relared_orders_ids_array);
+				$gethtml = '' ;
+				foreach($relared_orders_ids_array AS $key2 => $val2){ 
+					$url = get_wcfm_custom_menus_url('orders-details').$val2; 
+					//$gethtml .= "123" ;
+					//deb($url);
+					$gethtml .= '<a href="'.$url.'">#'.$val2.'<a/><br>' ;
+					//$gethtml .= '<a href="'.echo $url .'">#'.echo $val2.'<a/><br>' ;
+				} 
 				
+				
+				$wcfm_ahli_json_arr[$index][] = $gethtml;
+				/*
 				// Gross Sales Amount
 				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['_ID'];
 				
 				// Commission && Commission Amount
 				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['_ID'];
 				$wcfm_ahli_json_arr[$index][] =  $wcfm_ahli_single['_ID'];
-				
+				*/
+
 				//deb($wcfm_ahli_array);exit();
 				// Action
 				$actions = '';
-				$actions .= '<a target="_blank" class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('orders-details').$wcfm_ahli_single['cct_single_post_id'].'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-first-order text_tip" data-tip="' . esc_attr__( 'Order Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
+				//$actions .= '<a target="_blank" class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('orders-details').$wcfm_ahli_single['cct_single_post_id'].'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-first-order text_tip" data-tip="' . esc_attr__( 'Order Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$actions .= '<a target="_blank" class="wcfm-action-icon" href="'. get_wcfm_custom_menus_url('subscriptions-manage').$wcfm_ahli_single['subscription_id'].'" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-file-pdf text_tip" data-tip="' . esc_attr__( 'Payment Subscription Info', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$actions .= '<a class="wcfm_ahli_delete wcfm-action-icon" href="#" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-trash-alt text_tip" data-tip="' . esc_attr__( 'Delete', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$wcfm_ahli_json_arr[$index][] =  $actions .= '<a class="wcfm-action-icon" href="' . get_wcfm_custom_menus_url( 'wcfm-ahli_manage' )."?_post_id=".$wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-eye text_tip" data-tip="' . esc_attr__( 'View Details', 'wc-frontend-manager' ) . '"></span></a>';
 				
-				
+				/*
 				// Custom Column Support Before
 				$wcfm_ahli_json_arr = apply_filters( 'wcfm_ahli_custom_columns_data_before', $wcfm_ahli_json_arr, $index, $wcfm_ahli_single->ID, $wcfm_ahli_single, $the_order );
 				
@@ -233,7 +247,7 @@ class WCFM_ahli_Controller {
 				$actions = '';
 				$actions .= '<a class="wcfm_order_delete wcfm-action-icon" href="#" data-orderid="' . $wcfm_ahli_single['_ID'] . '"><span class="wcfmfa fa-trash-alt text_tip" data-tip="' . esc_attr__( 'Delete', 'wc-frontend-manager-ultimate' ) . '"></span></a>';
 				$wcfm_ahli_json_arr[$index][] =  $actions .= '<a class="wcfm-action-icon" href="' . get_wcfm_custom_menus_url( 'wcfm-ahli_manage' ) . '"><span class="wcfmfa fa-eye text_tip" data-tip="' . esc_attr__( 'View Details', 'wc-frontend-manager' ) . '"></span></a>';
-				
+				*/
 				
 				$index++;
 			}												

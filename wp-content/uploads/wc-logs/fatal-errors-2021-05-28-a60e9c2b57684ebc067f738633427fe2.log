@@ -1,0 +1,137 @@
+2021-05-28T14:00:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function luq_class_member::get_member_id_by_subscriber_id(), 0 passed in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 365 and exactly 1 expected in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:7
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php(365): luq_class_member->get_member_id_by_subscriber_id()
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#5 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#6 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\kariah\wp-in in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 7
+
+2021-05-28T14:00:45+00:00 CRITICAL Uncaught Error: Call to undefined function luq_class_member() in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php:365
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\themes\flatsome\woocommerce\checkout\layouts\checkout.php(18): get_footer()
+#9 C:\laragon\www\ka in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 365
+
+2021-05-28T14:09:12+00:00 CRITICAL Uncaught Error: Call to a member function get_ID() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:11
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php(365): luq_class_member->get_member_id_by_order_id('468')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#5 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#6 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#8 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true,  in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 11
+
+2021-05-28T16:20:14+00:00 CRITICAL syntax error, unexpected '}' in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 167
+
+2021-05-28T16:27:38+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:168
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 168
+
+2021-05-28T16:27:50+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:168
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 168
+
+2021-05-28T16:29:34+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:170
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 170
+
+2021-05-28T16:32:07+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+
+2021-05-28T16:32:18+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+
+2021-05-28T16:33:18+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(183): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+
+2021-05-28T16:33:44+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(182): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+
+2021-05-28T16:35:25+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+
+2021-05-28T16:36:55+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+

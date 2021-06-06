@@ -120,7 +120,12 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 }
 
 ?>
+<?php
+$members = new luq_class_member() ;
+$user = wp_get_current_user();
+$member_no = $members->get_total_members_by_vendor($user->ID) ; 
 
+?>
 <div class="collapse wcfm-collapse" id="wcfm_order_details">
 
   <div class="wcfm-page-headig">
@@ -144,7 +149,7 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 								<span class="wcfmfa fa-currency"><?php echo get_woocommerce_currency_symbol() ; ?></span>
 								<div>
 									<strong><?php echo apply_filters( 'wcfm_vendor_dashboard_gross_sales', wc_price( $gross_sales ) ); ?></strong><br />
-									<?php _e( 'gross sales in this month', 'wc-frontend-manager' ); ?>
+									<?php _e( 'sales in this month', 'wc-frontend-manager' ); ?>
 								</div>
 							</a>
 						</div>
@@ -152,11 +157,12 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 					<?php do_action( 'wcfm_dashboard_stats_block_after_gross_sales', $user_id ); ?>
 					<?php if( apply_filters( 'wcfm_is_allow_view_commission', true ) && apply_filters( 'wcfm_is_allow_stats_block_commission', true ) ) { ?>
 						<div class="wcfm_dashboard_stats_block">
-							<a href="<?php echo get_wcfm_reports_url( ); ?>">
-								<span class="wcfmfa fa-money fa-money-bill-alt"></span>
+							<a href="<?php echo get_wcfm_custom_menus_url('ahli'); ?>">
+								<span class="wcfmfa fa-users" style="background:green;"></span>
 								<div>
-									<strong><?php echo apply_filters( 'wcfm_vendor_dashboard_commission', wc_price( $earned ) ); ?></strong><br />
-									<?php if( $admin_fee_mode ) { _e( 'admin fees in this month', 'wc-frontend-manager' ); } else { _e( 'earnings in this month', 'wc-frontend-manager' ); } ?>
+								
+									<strong><?php echo $member_no; ?></strong><br />
+									<?php { _e( 'total active member', 'wc-frontend-manager' ); } ?>
 								</div>
 							</a>
 						</div>
@@ -264,7 +270,7 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 				  <?php if( apply_filters( 'wcfm_is_dashboard_more_stats', true ) && ( apply_filters( 'wcfm_is_allow_reports', true ) || apply_filters( 'wcfm_is_allow_orders', true ) ) ) { ?>
 						<div class="page_collapsible" id="wcfm_dashboard_wc_status">
 							<span class="wcfmfa fa-list fa-clock"></span>
-							<span class="dashboard_widget_head"><?php _e('Store Stats', 'wc-frontend-manager'); ?></span>
+							<span class="dashboard_widget_head"><?php _e('Kariah Stats', 'wc-frontend-manager'); ?></span>
 						</div>
 						<div class="wcfm-container">
 							<div id="wcfm_dashboard_wc_status_expander" class="wcfm-content">

@@ -1,0 +1,117 @@
+2021-05-29T00:31:58+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 212
+
+2021-05-29T00:32:27+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 212
+
+2021-05-29T00:33:27+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:33:48+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:34:00+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:34:17+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:38:54+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:39:22+00:00 CRITICAL syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 272
+
+2021-05-29T00:41:10+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:41:58+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:42:46+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:43:31+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+
+2021-05-29T00:44:06+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+
+2021-05-29T00:44:40+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+
+2021-05-29T00:45:37+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+
+2021-05-29T00:46:08+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+
+2021-05-29T00:46:53+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+
+2021-05-29T00:47:24+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:47:56+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:48:19+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:49:04+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:49:26+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:49:46+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:50:02+00:00 CRITICAL syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+
+2021-05-29T00:50:53+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 217
+
+2021-05-29T00:52:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+
+2021-05-29T02:15:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:162
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 162
+
+2021-05-29T02:16:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2021-05-29T02:16:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2021-05-29T02:17:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+
+2021-05-29T02:18:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+
+2021-05-29T02:19:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+
+2021-05-29T02:21:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:24
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php(126): luq_class_member->get_total_members_by_vendor(2)
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcod in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 24
+
+2021-05-29T02:23:08+00:00 CRITICAL Object of class luq_class_member could not be converted to string in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 163
+

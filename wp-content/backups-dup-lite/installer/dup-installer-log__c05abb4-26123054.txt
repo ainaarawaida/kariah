@@ -1,0 +1,1032 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:16:14
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.19                                |7.2.19
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-05-26 12:30:54
+WP VERSION__________: 5.5.5
+DUP VERSION_________: 1.4.0
+DB__________________: 5.7.24
+DB TABLES___________: 84
+DB ROWS_____________: 4,592
+DB FILE SIZE________: 7.36MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.19 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.35 (Win64) OpenSSL/1.1.1b PHP/7.2.19
+DOC ROOT____________: "C:/laragon/www/kariah"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://kariah.test/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/kariah/20210526_sistemkariah_[HASH]_20210526123054_archive.zip"
+SIZE________________: 139.45MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/kariah/20210526_sistemkariah_[HASH]_20210526123054_archive.zip"
+SIZE________________: 139.45MBFile timestamp set to Current: 2021-05-28 13:16:59
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:16:59 - RUNTIME: 44.9042 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:17:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 5.7.24
+FILE SIZE:	dup-database__[HASH].sql (2.83MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/laragon/www/kariah/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	4764
+
+wp_actionscheduler_actions: (281)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (4)
+wp_actionscheduler_logs: (825)
+wp_commentmeta: (20)
+wp_comments: (91)
+wp_duplicator_packages: (0)
+wp_jet_cct_member: (1)
+wp_jet_post_types: (1)
+wp_jet_taxonomies: (0)
+wp_links: (0)
+wp_options: (458)
+wp_postmeta: (1406)
+wp_posts: (276)
+wp_social_users: (0)
+wp_term_relationships: (14)
+wp_term_taxonomy: (50)
+wp_termmeta: (9)
+wp_terms: (50)
+wp_usermeta: (393)
+wp_users: (13)
+wp_wc_admin_note_actions: (28)
+wp_wc_admin_notes: (26)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (42)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (11)
+wp_wc_order_stats: (45)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (2)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_wcfm_daily_analysis: (12)
+wp_wcfm_detailed_analysis: (120)
+wp_wcfm_enquiries: (0)
+wp_wcfm_enquiries_meta: (0)
+wp_wcfm_enquiries_response: (0)
+wp_wcfm_enquiries_response_meta: (0)
+wp_wcfm_fbc_chat_rows: (0)
+wp_wcfm_fbc_chat_sessions: (0)
+wp_wcfm_fbc_chat_visitors: (0)
+wp_wcfm_fbc_offline_messages: (0)
+wp_wcfm_following_followers: (0)
+wp_wcfm_marketplace_orders: (8)
+wp_wcfm_marketplace_orders_meta: (72)
+wp_wcfm_marketplace_product_multivendor: (0)
+wp_wcfm_marketplace_refund_request: (0)
+wp_wcfm_marketplace_refund_request_meta: (0)
+wp_wcfm_marketplace_reverse_withdrawal: (0)
+wp_wcfm_marketplace_reverse_withdrawal_meta: (0)
+wp_wcfm_marketplace_review_rating_meta: (0)
+wp_wcfm_marketplace_reviews: (0)
+wp_wcfm_marketplace_reviews_response: (0)
+wp_wcfm_marketplace_reviews_response_meta: (0)
+wp_wcfm_marketplace_shipping_zone_locations: (0)
+wp_wcfm_marketplace_shipping_zone_methods: (0)
+wp_wcfm_marketplace_store_taxonomies: (1)
+wp_wcfm_marketplace_vendor_ledger: (8)
+wp_wcfm_marketplace_withdraw_request: (0)
+wp_wcfm_marketplace_withdraw_request_meta: (0)
+wp_wcfm_membership_subscription: (0)
+wp_wcfm_messages: (59)
+wp_wcfm_messages_modifier: (1)
+wp_wcfm_messages_stat: (0)
+wp_wcfm_support: (0)
+wp_wcfm_support_meta: (0)
+wp_wcfm_support_response: (0)
+wp_wcfm_support_response_meta: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (190)
+wp_woocommerce_order_items: (19)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (14)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '124' cache/transient rows
+
+INSERT DATA RUNTIME: 3.3979 sec.
+STEP-2 COMPLETE @ 01:17:29 - RUNTIME: 3.4949 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:17:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Sistem Kariah"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/laragon/www/kariah"
+path_new______________: "C:/laragon/www/kariah"
+siteurl_______________: "http://kariah.test"
+url_old_______________: "http://kariah.test"
+url_new_______________: "http://kariah.test"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   281][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   825][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    91][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_cct_member"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_jet_post_types"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_jet_taxonomies"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   458][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1406][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   276][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_social_users"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   393][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_daily_analysis"__________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_detailed_analysis"_______________________[ROWS:   120][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_enquiries"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_meta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_response"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_response_meta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_fbc_chat_rows"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_fbc_chat_sessions"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_fbc_chat_visitors"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_fbc_offline_messages"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_following_followers"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_orders"______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_marketplace_orders_meta"_________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_marketplace_product_multivendor"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_refund_request"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_refund_request_meta"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reverse_withdrawal"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reverse_withdrawal_meta"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_review_rating_meta"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews_response"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews_response_meta"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_shipping_zone_locations"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_shipping_zone_methods"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_store_taxonomies"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_marketplace_vendor_ledger"_______________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_marketplace_withdraw_request"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_withdraw_request_meta"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_membership_subscription"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_messages"________________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_messages_modifier"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_wcfm_messages_stat"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_meta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_response"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_response_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   190][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:\laragon\www\kariah" ===========================> "C:/laragon/www/kariah"
+	SEARCH  2:"C:\\laragon\\www\\kariah" ========================> "C:\/laragon\/www\/kariah"
+	SEARCH  3:"C%3A%5Claragon%5Cwww%5Ckariah" ===================> "C%3A%2Flaragon%2Fwww%2Fkariah"
+	SEARCH  4:"//www.kariah.test" ===============================> "//kariah.test"
+	SEARCH  5:"\/\/www.kariah.test" =============================> "\/\/kariah.test"
+	SEARCH  6:"%2F%2Fwww.kariah.test" ===========================> "%2F%2Fkariah.test"
+	SEARCH  7:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH  8:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH  9:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+	SEARCH 10:"$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']" => "//kariah.test"
+	SEARCH 11:"$_SERVER['REQUEST_SCHEME'] . ':\/\/' . $_SERVER['HTTP_HOST']" => "\/\/kariah.test"
+	SEARCH 12:"%24_SERVER%5B%27REQUEST_SCHEME%27%5D+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Fkariah.test"
+	SEARCH 13:"https://kariah.test" =============================> "http://kariah.test"
+	SEARCH 14:"https:\/\/kariah.test" ===========================> "http:\/\/kariah.test"
+	SEARCH 15:"https%3A%2F%2Fkariah.test" =======================> "http%3A%2F%2Fkariah.test"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:84 	|	 Rows:4553 	|	 Cells:31094 
+UPDATED:	Tables:1 	|	 Rows:1 	|	 Cells:1 
+ERRORS:		0 
+RUNTIME:	0.221700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://kariah.test"
+	UPDATE WP_SITEURL "http://kariah.test"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:17:32 - RUNTIME: 0.3627 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

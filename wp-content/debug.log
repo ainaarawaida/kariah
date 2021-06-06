@@ -438,3 +438,543 @@ Stack trace:
 [25-May-2021 14:07:41 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
 [25-May-2021 14:07:41 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 226
 [25-May-2021 14:07:41 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 226
+[28-May-2021 14:00:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function luq_class_member::get_member_id_by_subscriber_id(), 0 passed in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 365 and exactly 1 expected in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:7
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php(365): luq_class_member->get_member_id_by_subscriber_id()
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#5 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#6 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\kariah\wp-in in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 7
+[28-May-2021 14:00:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function luq_class_member() in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php:365
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\themes\flatsome\woocommerce\checkout\layouts\checkout.php(18): get_footer()
+#9 C:\laragon\www\ka in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 365
+[28-May-2021 14:07:36 UTC] PHP Notice:  Trying to get property 'id' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 11
+[28-May-2021 14:09:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_ID() on array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:11
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php(365): luq_class_member->get_member_id_by_order_id('468')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): checkoutluqjs('')
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#5 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#6 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#8 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true,  in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 11
+[28-May-2021 14:09:21 UTC] PHP Notice:  Trying to get property 'get_ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 11
+[28-May-2021 14:12:25 UTC] PHP Parse error:  syntax error, unexpected ''_ID'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 366
+[28-May-2021 14:12:25 UTC] PHP Parse error:  syntax error, unexpected ''_ID'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 366
+[28-May-2021 14:29:26 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[28-May-2021 14:29:26 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[28-May-2021 14:29:26 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:29:26 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:30:12 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: new_ic_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 66
+[28-May-2021 14:30:12 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined variable: member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 78
+[28-May-2021 14:30:12 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: full_name_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 130
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: new_ic_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 136
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: picture_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 140
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: email_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 147
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: date_birth_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 151
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: address_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 155
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: poscode_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 159
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: city_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 163
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: state_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 167
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: mobile_phone_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 171
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: house_phone_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 175
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined index: dependent_repeat_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 179
+[28-May-2021 14:30:12 UTC] PHP Notice:  Undefined variable: member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 187
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:30:14 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:30:16 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:30:16 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 370
+[28-May-2021 14:30:16 UTC] PHP Notice:  Trying to get property '_ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 370
+[28-May-2021 14:30:16 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 370
+[28-May-2021 14:30:16 UTC] PHP Notice:  Trying to get property '_ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 370
+[28-May-2021 14:32:41 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:32:52 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:33:11 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:34:19 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:34:50 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[28-May-2021 14:34:50 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[28-May-2021 14:34:50 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:34:50 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:35:08 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[28-May-2021 14:35:08 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[28-May-2021 14:35:08 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:35:08 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:36:18 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[28-May-2021 14:36:18 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[28-May-2021 14:36:18 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:36:18 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 14:37:44 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 14:56:17 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: new_ic_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 66
+[28-May-2021 14:56:17 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined variable: member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 78
+[28-May-2021 14:56:17 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: full_name_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 130
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: new_ic_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 136
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: picture_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 140
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: email_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 147
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: date_birth_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 151
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: address_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 155
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: poscode_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 159
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: city_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 163
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: state_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 167
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: mobile_phone_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 171
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: house_phone_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 175
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined index: dependent_repeat_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 179
+[28-May-2021 14:56:17 UTC] PHP Notice:  Undefined variable: member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 187
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[28-May-2021 14:56:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[28-May-2021 14:56:22 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 472
+[28-May-2021 15:16:39 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[28-May-2021 15:16:39 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[28-May-2021 15:16:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 15:16:39 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[28-May-2021 16:20:14 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 167
+[28-May-2021 16:20:53 UTC] PHP Notice:  Undefined variable: product_id in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 166
+[28-May-2021 16:20:53 UTC] PHP Notice:  Undefined variable: product_id in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 166
+[28-May-2021 16:20:54 UTC] PHP Notice:  Undefined variable: product_id in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 166
+[28-May-2021 16:27:38 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:168
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 168
+[28-May-2021 16:27:50 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:168
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 168
+[28-May-2021 16:29:34 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:170
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 170
+[28-May-2021 16:31:08 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:31:08 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:31:08 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:32:07 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:32:07 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:32:07 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:32:07 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:32:18 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:32:18 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:32:18 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:32:18 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:33:12 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:12 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:12 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:14 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:14 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:14 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:17 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:17 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:17 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:18 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:18 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:18 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:18 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:33:18 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:33:18 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:33:18 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(183): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:33:20 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:20 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:20 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:23 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:23 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:23 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:27 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:27 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:27 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:28 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:28 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:28 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:30 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:30 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:30 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:32 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:32 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:32 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:35 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:35 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:35 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:37 UTC] PHP Notice:  Constant WP_DEBUG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 44
+[28-May-2021 16:33:37 UTC] PHP Notice:  Constant WP_DEBUG_DISPLAY already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 46
+[28-May-2021 16:33:37 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in C:\laragon\www\kariah\wp-admin\admin-ajax.php on line 48
+[28-May-2021 16:33:44 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:33:44 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:33:44 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:33:44 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(182): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:34:38 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:34:38 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:34:38 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:35:25 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:35:25 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:35:25 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:35:25 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:35:40 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:35:40 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:35:40 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:36:55 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:36:55 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:36:55 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:36:55 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php:171
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php(17): WCFM_Orders_WCFMMarketplace_Controller->processing()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php(189): WCFM_Orders_WCFMMarketplace_Controller->__construct()
+#2 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): WCFM_Ajax->wcfm_ajax_controller('')
+#3 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\laragon\www\kariah\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wcfm_aj...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 171
+[28-May-2021 16:37:11 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:37:11 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:37:11 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:37:23 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:37:23 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:37:23 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[28-May-2021 16:37:48 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[28-May-2021 16:37:48 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[28-May-2021 16:37:48 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:19:27 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:19:27 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:19:27 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:19:48 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:19:48 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:19:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:19:48 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:21:08 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:21:08 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:21:08 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:21:11 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:21:11 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:21:11 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:21:11 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:21:48 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:21:48 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:21:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:21:48 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 227
+[29-May-2021 00:29:53 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:29:53 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:29:53 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:31:58 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 212
+[29-May-2021 00:32:27 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 212
+[29-May-2021 00:32:50 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:32:50 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:32:50 UTC] PHP Notice:  Undefined variable: gethtml in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 218
+[29-May-2021 00:32:50 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 237
+[29-May-2021 00:32:50 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 237
+[29-May-2021 00:33:27 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:33:48 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:34:00 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:34:17 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:38:54 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:39:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 272
+[29-May-2021 00:41:10 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:41:58 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:42:46 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:43:31 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+[29-May-2021 00:44:06 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+[29-May-2021 00:44:40 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 215
+[29-May-2021 00:45:02 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:45:02 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:45:37 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+[29-May-2021 00:46:08 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+[29-May-2021 00:46:53 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+[29-May-2021 00:47:24 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:47:56 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:48:19 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:48:44 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:48:44 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:48:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:48:44 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:49:04 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:49:26 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:49:46 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:50:02 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 214
+[29-May-2021 00:50:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 217
+[29-May-2021 00:51:23 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:51:23 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:51:23 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:51:23 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:51:49 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:51:49 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:51:49 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:52:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 216
+[29-May-2021 00:52:31 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:52:31 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:52:31 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:52:31 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:53:29 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 00:53:29 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 00:53:29 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:53:29 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 00:53:57 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:53:57 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:53:57 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:54:20 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:54:20 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:54:20 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:55:04 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 00:55:04 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 00:55:04 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 00:57:31 UTC] PHP Notice:  Undefined variable: wcfm_ahli_single in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 29
+[29-May-2021 01:02:47 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[29-May-2021 01:02:47 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[29-May-2021 01:02:47 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[29-May-2021 01:12:53 UTC] PHP Notice:  Undefined variable: wp in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-orders-details.php on line 20
+[29-May-2021 01:12:53 UTC] PHP Notice:  Trying to get property 'query_vars' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-orders-details.php on line 20
+[29-May-2021 01:24:00 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:24:00 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:24:00 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:24:00 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:36:09 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:36:09 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:36:09 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:36:09 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:38:12 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:38:12 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:38:12 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:38:12 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:38:35 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:38:35 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:38:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:38:35 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:39:39 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:39:39 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:39:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:39:39 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:40:09 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:40:09 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:40:09 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:40:09 UTC] PHP Notice:  Undefined variable: the_order in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 240
+[29-May-2021 01:41:49 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:41:49 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:42:45 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:42:45 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:46:34 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:46:34 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:48:11 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:48:11 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 01:48:37 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 01:48:37 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 02:02:03 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 02:02:03 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 02:02:54 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 02:02:54 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 02:12:57 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:12:58 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:12:59 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:00 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:01 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:02 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:03 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:04 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:05 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:06 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:07 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:08 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:08 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:10 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:10 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:12 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:12 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:14 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:14 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:16 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:16 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:17 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:18 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:19 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:20 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:21 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:22 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:23 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:24 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:25 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:26 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:26 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:28 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:28 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:30 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:30 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:32 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:32 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:34 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:34 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:35 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:36 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:38 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:38 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:39 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:40 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:41 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:42 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:43 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:44 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:45 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:46 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:47 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:48 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:48 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:50 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:50 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:52 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:52 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:54 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:54 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:56 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:56 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:57 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:58 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:13:59 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:14:00 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:14:01 UTC] PHP Parse error:  syntax error, unexpected 'vendor' (T_STRING), expecting '(' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 18
+[29-May-2021 02:15:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:162
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 162
+[29-May-2021 02:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 127
+[29-May-2021 02:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 127
+[29-May-2021 02:17:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+[29-May-2021 02:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+[29-May-2021 02:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_members_by_vendor() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php:126
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 126
+[29-May-2021 02:21:51 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 02:21:51 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 02:21:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php:24
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php(126): luq_class_member->get_total_members_by_vendor(2)
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(929): WCFM_Template->get_template('dashboard/wcfm-...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcod in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\class\class_member.php on line 24
+[29-May-2021 02:23:08 UTC] PHP Recoverable fatal error:  Object of class luq_class_member could not be converted to string in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\dashboard\wcfm-view-wcfmmarketplace-dashboard.php on line 163
+[29-May-2021 02:25:45 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 02:25:45 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[29-May-2021 02:26:08 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[29-May-2021 02:26:08 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28

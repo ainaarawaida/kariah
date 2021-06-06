@@ -361,18 +361,26 @@ function checkoutluqjs() {
         
     }
     if(isset($wp->query_vars['pagename'] ) && $wp->query_vars['pagename'] == 'checkout' && isset($wp->query_vars['order-received'])){
-      
+        $new_member = new luq_class_member() ; 
+        $member = $new_member->get_member_id_by_order_id($wp->query_vars['order-received']) ; 
+        //deb($member[0]->_ID);exit();
+        //get_member_id_by_subscriber_id
         
         $homeurlxx = home_url('my-account/view-order/'.$wp->query_vars['order-received']) ; 
-      
+        $memberurl = home_url('my-account/memberInfo/'.$member[0]->_ID.'/?_post_id='.$member[0]->_ID) ; 
         ?>
         
             <script>
              var homeurlxx = <?php echo json_encode($homeurlxx) ; ?> ;
-
+             var memberurl = <?php echo json_encode($memberurl) ; ?> ;
+            
             jQuery( document ).ready( function( $ ) {
              
+           //tambah button member
            
+           $('a.woocommerce-button.button.view').parent().prepend('<a target="_blank" href="'+memberurl+'" class="woocommerce-button button view">Member Info</a>');
+               
+
             //var homeurl = 'my-account/view-order/' ; 
             //$("div.entry-content div.woocommerce div.woocommerce-order p:contains('Your subscription will be activated')").html("Your subscription will be activated when order has been approved and payment clears. You can upload your receipt payment <a href='"#"'here</a>") ; 
             $('div.entry-content div.woocommerce div.woocommerce-order p:contains("Your subscription will be activated")').html("Your subscription will be activated when order has been approved and payment clears.") ; 
@@ -456,12 +464,10 @@ function post_updatedluq1($post_id){
 function my_functionluqcheckout(){
     global $wp, $wpdb ;
     if(isset($wp->query_vars['pagename']) && isset( $wp->query_vars['order-received'])){
-        //find ic if exist
-        $tablename = $wpdb->prefix . "posts";
-        $sql = "SELECT * FROM ".$tablename." WHERE post_parent = '".$wp->query_vars['order-received']."' AND post_type = 'shop_subscription'" ;
-        $getinfp = $wpdb->get_results( $sql , ARRAY_A );
-               // deb('aaaa');
-        wp_update_post( array( 'ID' => $getinfp[0]['ID'] ,  'post_status' => 'wc-on-hold' ) );
+        $getsub =  wcs_get_subscriptions($wp->query_vars['order-received']) ;
+        if($getsub){
+            wp_update_post( array( 'ID' => key($getsub) ,  'post_status' => 'wc-on-hold' ) );
+        }
     }
     // your code goes here
 }

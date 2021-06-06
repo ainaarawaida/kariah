@@ -9,7 +9,7 @@
  * @version   1.0.0
  */
 
-global $wp, $WCFM, $WCFMmp, $theorder, $wpdb;
+
 
 
 
@@ -17,14 +17,26 @@ global $wp, $WCFM, $WCFMmp, $theorder, $wpdb;
 
 add_action('wp_footer', 'ordersdetailsluq_ahlimanagejs');
 function ordersdetailsluq_ahlimanagejs() {
+	global $wp, $WCFM, $WCFMmp, $theorder, $wpdb;
+	if(isset($wp->query_vars['wcfm-orders-details'])){
 
+		//get subscription link
+		$getsub =  wcs_get_subscriptions($wp->query_vars['wcfm-orders-details']) ;
+		$subsription_link = get_wcfm_custom_menus_url( 'subscriptions-manage' ).key($getsub) ;
+		
 
 ?>
 
 	<script>
 
+		var subsription_link = <?php echo json_encode($subsription_link) ; ?> ;
 	jQuery( document ).ready( function( $ ) {
 	
+		//td.subscription-id a betulkan link subscription 
+		//link_id = $('td.subscription-id a').text();
+		//link_id = link_id.replace("#", "");
+		$('td.subscription-id a').attr('href',subsription_link);
+		$('td.subscription-actions a.button.view').attr('href',subsription_link);
 		
 		$('li strong.wc-item-meta-label:contains("Picture")').parent().addClass("luqhide");
 		if($('li strong.wc-item-meta-label:contains("Dependent")').next().text().length){
@@ -78,7 +90,7 @@ function ordersdetailsluq_ahlimanagejs() {
 	</script>
 	
 	<?php
-
+	}
 
 }  
 

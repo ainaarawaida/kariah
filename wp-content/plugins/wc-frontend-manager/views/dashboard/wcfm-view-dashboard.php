@@ -114,7 +114,7 @@ $admin_fee_mode = apply_filters( 'wcfm_is_admin_fee_mode', false );
 							<span class="wcfmfa fa-currency"><?php echo get_woocommerce_currency_symbol() ; ?></span>
 							<div>
 								<strong><?php echo wc_price( $report_data_block->total_sales ); ?></strong><br />
-								<?php _e( 'gross sales in last 7 days', 'wc-frontend-manager' ); ?>
+								<?php _e( 'sales in last 7 days', 'wc-frontend-manager' ); ?>
 							</div>
 						</a>
 					</div>
@@ -255,7 +255,7 @@ $admin_fee_mode = apply_filters( 'wcfm_is_admin_fee_mode', false );
 						<div class="wcfm_dashboard_more_stats">
 							<div class="page_collapsible" id="wcfm_dashboard_wc_status">
 								<span class="wcfmfa fa-list"></span>
-								<span class="dashboard_widget_head"><?php _e('Store Stats', 'wc-frontend-manager'); ?></span>
+								<span class="dashboard_widget_head"><?php _e('Kariah Stats', 'wc-frontend-manager'); ?></span>
 							</div>
 							<div class="wcfm-container">
 								<div id="wcfm_dashboard_wc_status_expander" class="wcfm-content">

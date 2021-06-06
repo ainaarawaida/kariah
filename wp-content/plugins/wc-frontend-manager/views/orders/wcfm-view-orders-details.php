@@ -26,14 +26,44 @@ if( !$order_id ) return;
 
 if( wcfm_is_vendor() ) {
 	$is_order_for_vendor = $WCFM->wcfm_vendor_support->wcfm_is_order_for_vendor( $order_id );
-	if( !$is_order_for_vendor ) {
-		if( apply_filters( 'wcfm_is_show_order_restrict_message', true, $order_id ) ) {
-			wcfm_restriction_message_show( "Restricted Order" );
-		} else {
-			echo apply_filters( 'wcfm_show_custom_order_restrict_message', '', $order_id );
-		}
-		return;
+	$orderluq = wc_get_order( $order_id );
+	$itemsluq = $orderluq->get_items();
+	foreach ( $itemsluq as $item ) {
+		$product_id = $item->get_product_id();
+		$pcategories = get_the_terms($product_id, 'product_cat');
+        if( !empty($pcategories) ) {
+            foreach($pcategories as $pkey => $pcategory) {
+                $check_categories[] = $pcategory->name;
+            }
+        }
+
 	}
+	if(in_array("Members", $check_categories)){
+        $getsub =  wcs_get_subscriptions($order_id) ;
+		$subscription = new WC_Subscription( key($getsub) );
+		$relared_orders_ids_array = $subscription->get_related_orders();
+		if( !$is_order_for_vendor && !in_array($order_id, $relared_orders_ids_array)) {
+			if( apply_filters( 'wcfm_is_show_order_restrict_message', true, $order_id ) ) {
+				wcfm_restriction_message_show( "Restricted Order" );
+			} else {
+				echo apply_filters( 'wcfm_show_custom_order_restrict_message', '', $order_id );
+			}
+			return;
+		}
+    }else{
+		if( !$is_order_for_vendor ) {
+			if( apply_filters( 'wcfm_is_show_order_restrict_message', true, $order_id ) ) {
+				wcfm_restriction_message_show( "Restricted Order" );
+			} else {
+				echo apply_filters( 'wcfm_show_custom_order_restrict_message', '', $order_id );
+			}
+			return;
+		}
+	}
+
+	
+
+	
 }
 
 $theorder = wc_get_order( $order_id );

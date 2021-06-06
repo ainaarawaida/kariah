@@ -251,12 +251,12 @@ function wcfm_csm_load_scripts( $end_point ) {
 			
 			
 			// Order Columns Defs
-			$wcfm_datatable_column_defs = '[{ "targets": 0, "orderable" : false, "visible": true}, { "targets": 1, "orderable" : false, "visible": true }, { "targets": 2, "orderable" : false, "visible": true }, { "targets": 3, "orderable" : false, "visible": true }, { "targets": 4, "orderable" : false, "visible": true },{ "targets": 5, "orderable" : false, "visible": true },{ "targets": 6, "orderable" : false, "visible": false },{ "targets": 7, "orderable" : false, "visible": false },{ "targets": 8, "orderable" : false, "visible": false },{ "targets": 9, "orderable" : false, "visible": false },{ "targets": 10, "orderable" : false, "visible": true }]';
+			$wcfm_datatable_column_defs = '[{ "targets": 0, "orderable" : false, "visible": true}, { "targets": 1, "orderable" : false, "visible": true }, { "targets": 2, "orderable" : false, "visible": true }, { "targets": 3, "orderable" : false, "visible": true }, { "targets": 4, "orderable" : false, "visible": true },{ "targets": 5, "orderable" : false, "visible": true },{ "targets": 6, "orderable" : false, "visible": true },{ "targets": 7, "orderable" : false, "visible": true }]';
 															
 			$wcfm_datatable_column_defs = apply_filters( 'wcfm_datatable_column_defs', $wcfm_datatable_column_defs, 'order' );
 
 			// Order Columns Priority
-			$wcfm_datatable_column_priority = '[{ "responsivePriority": 2 },{ "responsivePriority": 1 },{ "responsivePriority": 4 },{ "responsivePriority": 10 },{ "responsivePriority": 6 },{ "responsivePriority": 5 },{ "responsivePriority": 7 },{ "responsivePriority": 3 },{ "responsivePriority": 8 },{ "responsivePriority": 9 },{ "responsivePriority": 1 }]';
+			$wcfm_datatable_column_priority = '[{ "responsivePriority": 2 },{ "responsivePriority": 1 },{ "responsivePriority": 4 },{ "responsivePriority": 6 },{ "responsivePriority": 5 },{ "responsivePriority": 7 },{ "responsivePriority": 3 },{ "responsivePriority": 1 }]';
 			$wcfm_datatable_column_priority = apply_filters( 'wcfm_datatable_column_priority', $wcfm_datatable_column_priority, 'order' );
 
 			wp_localize_script( 'dataTables_js', 'wcfm_datatable_columns', array( 'defs' => $wcfm_datatable_column_defs, 'priority' => $wcfm_datatable_column_priority, 'bFilter' => apply_filters( 'wcfm_datatable_bfiltery', ( wcfm_is_vendor() ) ? true : true, 'order' ) ) );
@@ -341,3 +341,5 @@ require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orders-manage.ph
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/store-setup.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/vendor-register.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orderslist.php' );
+
+require_once( trailingslashit( dirname( __FILE__  ) ) . 'class/class_member.php' );

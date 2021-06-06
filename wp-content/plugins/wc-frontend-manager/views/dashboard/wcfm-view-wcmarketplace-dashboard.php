@@ -160,7 +160,7 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 								<span class="wcfmfa fa-currency"><?php echo get_woocommerce_currency_symbol() ; ?></span>
 								<div>
 									<strong><?php echo apply_filters( 'wcfm_vendor_dashboard_gross_sales', wc_price( $gross_sales ) ); ?></strong><br />
-									<?php _e( 'gross sales in this month', 'wc-frontend-manager' ); ?>
+									<?php _e( 'sales in this month', 'wc-frontend-manager' ); ?>
 								</div>
 							</a>
 						</div>
@@ -272,7 +272,7 @@ if( $wcfm_is_allow_analytics = apply_filters( 'wcfm_is_allow_analytics', true ) 
 				<div class="wcfm_dashboard_more_stats">
 					<div class="page_collapsible" id="wcfm_dashboard_wc_status">
 						<span class="wcfmfa fa-list fa-clock"></span>
-						<span class="dashboard_widget_head"><?php _e('Store Stats', 'wc-frontend-manager'); ?></span>
+						<span class="dashboard_widget_head"><?php _e('Kariah Stats', 'wc-frontend-manager'); ?></span>
 					</div>
 					<div class="wcfm-container">
 						<div id="wcfm_dashboard_wc_status_expander" class="wcfm-content">

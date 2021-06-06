@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
 	
 	$wcfm_orders_table = $('#wcfm-orders').DataTable( {
 		"processing": true,
-		"serverSide": true,
+		"serverSide": false,
 		"responsive": true,
 		"bFilter"   : wcfm_datatable_columns.bFilter,
 		"pageLength": parseInt(dataTables_config.pageLength),
