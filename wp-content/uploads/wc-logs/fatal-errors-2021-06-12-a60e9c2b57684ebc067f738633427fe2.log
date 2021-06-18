@@ -1,0 +1,34 @@
+2021-06-12T05:24:07+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php on line 35
+
+2021-06-12T06:18:16+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:16
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 16
+
+2021-06-12T06:18:54+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:15
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 15
+
+2021-06-12T06:19:03+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:15
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 15
+
+2021-06-12T15:33:14+00:00 CRITICAL require_once(): Failed opening required 'C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus/views/wcfm-views-claim.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php on line 239
+

@@ -32,6 +32,7 @@ function wcfmcsm_query_vars( $query_vars ) {
 		'wcfm-upgrade'             => ! empty( $wcfm_modified_endpoints['wcfm-upgrade'] ) ? $wcfm_modified_endpoints['wcfm-upgrade'] : 'upgrade',
 		'wcfm-contact'             => ! empty( $wcfm_modified_endpoints['wcfm-contact'] ) ? $wcfm_modified_endpoints['wcfm-contact'] : 'contact',
 		'wcfm-cubaan'         => ! empty( $wcfm_modified_endpoints['wcfm-cubaan'] ) ? $wcfm_modified_endpoints['wcfm-cubaan'] : 'cubaan',
+		'wcfm-claim'         => ! empty( $wcfm_modified_endpoints['wcfm-claim'] ) ? $wcfm_modified_endpoints['wcfm-claim'] : 'claim',
 	);
 	
 	$query_vars = array_merge( $query_vars, $query_custom_menus_vars );
@@ -64,6 +65,9 @@ function wcfmcsm_endpoint_title( $title, $endpoint ) {
 		
 		case 'wcfm-appointment' :
 			$title = __( 'Appointment', 'wcfm-custom-menus' );
+
+		case 'wcfm-claim' :
+			$title = __( 'Claim', 'wcfm-custom-menus' );
 		break;
 	}
 	
@@ -100,6 +104,7 @@ function wcfm_custom_menus_endpoints_slug( $endpoints ) {
 												'wcfm-upgrade'      => 'upgrade',
 												'wcfm-contact'      => 'contact',
 												'wcfm-appointment'  => 'appointment',
+												'wcfm-claim'  => 'claim',
 												);
 	
 	$endpoints = array_merge( $endpoints, $custom_menus_endpoints );
@@ -146,7 +151,12 @@ function wcfmcsm_wcfm_menus( $menus ) {
 																										 'url'       => get_wcfm_custom_menus_url( 'wcfm-profile' ),
 																										 'icon'      => 'cubes',
 																										 'priority'  => 7
-																										), /* 
+																										),
+													'wcfm-claim' => array(   'label'  => __( 'Claim', 'wcfm-custom-menus'),
+														'url'       => get_wcfm_custom_menus_url( 'wcfm-claim' ),
+														'icon'      => 'cubes',
+														'priority'  => 6.5
+													), /* 
 													'wcfm-upgrade' => array(   'label'  => __( 'Upgrade', 'wcfm-custom-menus'),
 																										 'url'       => get_wcfm_custom_menus_url( 'wcfm-upgrade' ),
 																										 'icon'      => 'cubes',
@@ -223,6 +233,10 @@ function wcfm_csm_load_views( $end_point ) {
 
 		case 'wcfm-orders-manage':
 			require_once( $plugin_path . 'views/wcfm-views-orders-manage.php' );
+		break;
+
+		case 'wcfm-claim':
+			require_once( $plugin_path . 'views/wcfm-views-claim.php' );
 		break;
 
 		
@@ -341,5 +355,6 @@ require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orders-manage.ph
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/store-setup.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/vendor-register.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/orderslist.php' );
-
+require_once( trailingslashit( dirname( __FILE__  ) ) . 'global/store/info_kariah_tab.php' );
 require_once( trailingslashit( dirname( __FILE__  ) ) . 'class/class_member.php' );
+require_once( trailingslashit( dirname( __FILE__  ) ) . 'class/class_claim.php' );

@@ -1,0 +1,33 @@
+2021-06-18T02:24:50+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:31
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager('', '', 'wc_fronte in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 31
+
+2021-06-18T02:49:51+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:31
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager('', '', 'wc_fronte in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 31
+
+2021-06-18T03:03:15+00:00 CRITICAL syntax error, unexpected 'deb' (T_STRING) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 47
+
+2021-06-18T03:06:21+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 49
+
+2021-06-18T03:11:13+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 49
+
+2021-06-18T03:18:33+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::post_type() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:47
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_f in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 47
+

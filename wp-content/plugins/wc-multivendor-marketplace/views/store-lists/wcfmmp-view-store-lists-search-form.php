@@ -90,7 +90,7 @@ $display_vendor_term = array();
 	<?php do_action( 'wcfmmp_before_store_list_serach_form', $args ); ?>
 	
 	<?php if( $search ) { ?>
-	  <input type="search" id="search" class="search-field wcfmmp-store-search" placeholder="<?php esc_attr_e( 'Search store &hellip;', 'wc-multivendor-marketplace' ); ?>" value="<?php echo esc_attr( $search_query ); ?>" name="wcfmmp_store_search" title="<?php esc_attr_e( 'Search store &hellip;', 'wc-multivendor-marketplace' ); ?>" />
+	  <input type="search" id="search" class="search-field wcfmmp-store-search" placeholder="<?php esc_attr_e( 'Search kariah &hellip;', 'wc-multivendor-marketplace' ); ?>" value="<?php echo esc_attr( $search_query ); ?>" name="wcfmmp_store_search" title="<?php esc_attr_e( 'Search store &hellip;', 'wc-multivendor-marketplace' ); ?>" />
 	<?php } ?>
 	
 	<?php do_action( 'wcfmmp_after_store_list_serach_filter', $args ); ?>

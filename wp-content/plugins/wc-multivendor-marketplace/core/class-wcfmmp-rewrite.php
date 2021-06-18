@@ -215,6 +215,7 @@ class WCFMmp_Rewrites {
 		add_rewrite_rule( $this->wcfm_store_url.'/([^/]+)/page/?([0-9]{1,})/?$', 'index.php?post_type=product&'.$this->wcfm_store_url.'=$matches[1]&paged=$matches[2]', 'top' );
 		
 		add_rewrite_rule( $this->wcfm_store_url.'/([^/]+)/'.$this->store_endpoint('about').'?$', 'index.php?post_type=product&'.$this->wcfm_store_url.'=$matches[1]&'.$this->store_endpoint('about').'=true', 'top' );
+		add_rewrite_rule( $this->wcfm_store_url.'/([^/]+)/'.$this->store_endpoint('info_kariah').'?$', 'index.php?post_type=product&'.$this->wcfm_store_url.'=$matches[1]&'.$this->store_endpoint('info_kariah').'=true', 'top' );
 		add_rewrite_rule( $this->wcfm_store_url.'/([^/]+)/'.$this->store_endpoint('policies').'?$', 'index.php?post_type=product&'.$this->wcfm_store_url.'=$matches[1]&'.$this->store_endpoint('policies').'=true', 'top' );
 		
 		add_rewrite_rule( $this->wcfm_store_url.'/([^/]+)/'.$this->store_endpoint('reviews').'?$', 'index.php?post_type=product&'.$this->wcfm_store_url.'=$matches[1]&'.$this->store_endpoint('reviews').'=true', 'top' );
@@ -262,6 +263,7 @@ class WCFMmp_Rewrites {
 		$vars[] = $this->wcfm_store_url;
 		$vars[] = 'term_section';
 		$vars[] = $this->store_endpoint( 'about' );
+		$vars[] = $this->store_endpoint( 'info_kariah' );
 		$vars[] = $this->store_endpoint( 'policies' );
 		$vars[] = $this->store_endpoint( 'reviews' );
 		$vars[] = $this->store_endpoint( 'followers' );
@@ -340,7 +342,9 @@ class WCFMmp_Rewrites {
 				return isset( $store_tabs['followings'] ) ? $store_tabs['followings'] : '';
 			} elseif ( get_query_var( $this->store_endpoint('articles') ) ) {
 				return isset( $store_tabs['articles'] ) ? $store_tabs['articles'] : '';
-			} else {
+			} elseif ( get_query_var( $this->store_endpoint('info_kariah') ) ) {
+				return isset( $store_tabs['info_kariah'] ) ? $store_tabs['info_kariah'] : '';
+			}  else {
 				$default_qv = apply_filters( 'wcfmp_store_default_query_vars', 'products', $store_user->ID  );
 				$default_qv = apply_filters( 'wcfmmp_store_default_query_vars', $default_qv, $store_user->ID  );
 				return isset( $store_tabs[$default_qv] ) ? $store_tabs[$default_qv] : '';
@@ -426,6 +430,8 @@ class WCFMmp_Rewrites {
 				return $WCFMmp->template->get_template( 'store/wcfmmp-view-store.php', array( 'store_tab' => 'followings' ) );
 			} elseif ( get_query_var( $this->store_endpoint('articles') ) ) {
 				return $WCFMmp->template->get_template( 'store/wcfmmp-view-store.php', array( 'store_tab' => 'articles' ) );
+			}elseif ( get_query_var( $this->store_endpoint('info_kariah') ) ) {
+				return $WCFMmp->template->get_template( 'store/wcfmmp-view-store.php', array( 'store_tab' => 'info_kariah' ) );
 			} else {
 				return $WCFMmp->template->get_template( 'store/wcfmmp-view-store.php', array( 'store_tab' => apply_filters( 'wcfmmp_store_default_query_vars', apply_filters( 'wcfmp_store_default_query_vars', 'products', $store_user->ID ), 'products', $store_user->ID ) ) );
 			}
@@ -465,6 +471,8 @@ class WCFMmp_Rewrites {
 				$store_url .= $this->store_endpoint('followings');
 			} elseif ( get_query_var( $this->store_endpoint('articles') ) ) {
 				$store_url .= $this->store_endpoint('articles');
+			}elseif ( get_query_var( $this->store_endpoint('info_kariah') ) ) {
+				$store_url .= $this->store_endpoint('info_kariah');
 			} else {
 				$default_qv = apply_filters( 'wcfmp_store_default_query_vars', 'products', $seller_info->data->ID );
 				$default_qv = apply_filters( 'wcfmmp_store_default_query_vars', $default_qv, $seller_info->data->ID );

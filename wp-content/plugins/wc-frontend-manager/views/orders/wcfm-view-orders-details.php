@@ -25,6 +25,7 @@ if( isset( $wp->query_vars['wcfm-orders-details'] ) && !empty( $wp->query_vars['
 if( !$order_id ) return;
 
 if( wcfm_is_vendor() ) {
+	$check_categories = array();
 	$is_order_for_vendor = $WCFM->wcfm_vendor_support->wcfm_is_order_for_vendor( $order_id );
 	$orderluq = wc_get_order( $order_id );
 	$itemsluq = $orderluq->get_items();
@@ -42,10 +43,14 @@ if( wcfm_is_vendor() ) {
         $getsub =  wcs_get_subscriptions($order_id) ;
 		$subscription = new WC_Subscription( key($getsub) );
 		$relared_orders_ids_array = $subscription->get_related_orders();
-		if( !$is_order_for_vendor && !in_array($order_id, $relared_orders_ids_array)) {
+		$check_vendor = wcfm_get_vendor_id_by_post( $product_id ); //get vendor by product id
+		
+		if( (get_post_type($order_id) != 'shop_order') || ($check_vendor != get_current_user_id())) {
 			if( apply_filters( 'wcfm_is_show_order_restrict_message', true, $order_id ) ) {
+				
 				wcfm_restriction_message_show( "Restricted Order" );
 			} else {
+				
 				echo apply_filters( 'wcfm_show_custom_order_restrict_message', '', $order_id );
 			}
 			return;

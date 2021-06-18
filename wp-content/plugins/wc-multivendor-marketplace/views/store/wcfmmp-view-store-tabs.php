@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 global $WCFM, $WCFMmp;
 
 $store_tabs = $store_user->get_store_tabs();
-
+//deb($store_tab);
 ?>
 
 <?php do_action( 'wcfmmp_store_before_tabs', $store_user->get_id() ); ?>

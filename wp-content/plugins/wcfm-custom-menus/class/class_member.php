@@ -26,6 +26,29 @@ class luq_class_member
 
     }
 
+		// CREATE MEETING IN ZOOM
+	public function find_members_by_ic($vendor_id, $ic)
+	{
+		global $wpdb ; 
+		
+		$sql = "SELECT * FROM {$wpdb->prefix}jet_cct_member WHERE new_ic_member = '".$ic."' AND vendor_id = '".$vendor_id."' ";
+		$member = $wpdb->get_results( $sql);
+		//deb($member);exit();
+		return $member ; 
+
+	}
+
+	public function get_members_by_id($id)
+	{
+		global $wpdb ; 
+		
+		$sql = "SELECT * FROM {$wpdb->prefix}jet_cct_member WHERE _ID = '".$id."'  ";
+		$member = $wpdb->get_results( $sql);
+		//deb($member);exit();
+		return $member ; 
+
+	}
+
 }
 
 

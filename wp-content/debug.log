@@ -978,3 +978,576 @@ Stack trace:
 [29-May-2021 02:25:45 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
 [29-May-2021 02:26:08 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
 [29-May-2021 02:26:08 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[11-Jun-2021 14:23:12 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:12 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:17 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:17 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:18 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:18 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:19 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Subscriptions_Checkout::process_checkout, WC_Subscriptions_Checkout::create_subscription, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:19 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Subscriptions_Checkout::process_checkout, WC_Subscriptions_Checkout::create_subscription, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[11-Jun-2021 14:23:19 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[11-Jun-2021 14:23:19 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[11-Jun-2021 14:23:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[11-Jun-2021 14:23:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[11-Jun-2021 14:23:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[11-Jun-2021 14:23:20 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[11-Jun-2021 14:49:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 14:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 14:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 14:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 15:11:06 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in C:\laragon\www\kariah\wp-content\plugins\elementor\modules\landing-pages\module.php on line 123
+[11-Jun-2021 15:12:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 15:24:05 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in C:\laragon\www\kariah\wp-content\plugins\elementor\modules\landing-pages\module.php on line 123
+[11-Jun-2021 15:25:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 15:40:21 UTC] PHP Deprecated:  WC_Abstract_Legacy_Order::get_product_from_item is <strong>deprecated</strong> since version 4.4.0! Use $item->get_product() instead. in C:\laragon\www\kariah\wp-includes\functions.php on line 4777
+[11-Jun-2021 15:40:21 UTC] PHP Deprecated:  WC_Abstract_Legacy_Order::get_product_from_item is <strong>deprecated</strong> since version 4.4.0! Use $item->get_product() instead. in C:\laragon\www\kariah\wp-includes\functions.php on line 4777
+[11-Jun-2021 16:12:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:17:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:17:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:17:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:19:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:23:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:24:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:26:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:26:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:35:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:36:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 16:37:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php:28
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): productluqjs('')
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-includes\general-template.php(3025): do_action('wp_footer')
+#4 C:\laragon\www\kariah\wp-content\themes\flatsome\footer.php(21): wp_footer()
+#5 C:\laragon\www\kariah\wp-includes\template.php(730): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kariah\wp-includes\template.php(676): load_template('C:\\laragon\\www\\...', true, Array)
+#7 C:\laragon\www\kariah\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(146): get_footer('shop')
+#9 C:\la in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\product.php on line 28
+[11-Jun-2021 17:23:31 UTC] PHP Parse error:  syntax error, unexpected 'deb' (T_STRING), expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php on line 85
+[11-Jun-2021 17:28:17 UTC] PHP Warning:  include(C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace/views/store/wcfmmp-view-store-info_kariah.php): failed to open stream: No such file or directory in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php on line 38
+[11-Jun-2021 17:28:17 UTC] PHP Warning:  include(): Failed opening 'C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace/views/store/wcfmmp-view-store-info_kariah.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php on line 38
+[12-Jun-2021 05:24:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php on line 35
+[12-Jun-2021 05:24:19 UTC] PHP Notice:  Undefined property: WCFMmp_Template::$wcfm_store_url in C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php on line 33
+[12-Jun-2021 05:33:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 18
+[12-Jun-2021 05:33:53 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 18
+[12-Jun-2021 06:08:41 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 3
+[12-Jun-2021 06:08:53 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 8
+[12-Jun-2021 06:09:03 UTC] PHP Fatal error:  Uncaught Error: Class 'member' not found in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:3
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php(344): require_once()
+#1 C:\laragon\www\kariah\wp-settings.php(377): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-config.php(181): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\kariah\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\kariah\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 3
+[12-Jun-2021 06:09:18 UTC] PHP Fatal error:  Uncaught Error: Class 'luq_class_member' not found in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:3
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php(344): require_once()
+#1 C:\laragon\www\kariah\wp-settings.php(377): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-config.php(181): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\kariah\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\kariah\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 3
+[12-Jun-2021 06:12:15 UTC] PHP Notice:  Undefined index: check_members in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 13
+[12-Jun-2021 06:18:16 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:16
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 16
+[12-Jun-2021 06:18:54 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:15
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 15
+[12-Jun-2021 06:19:03 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:15
+Stack trace:
+#0 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(287): luq_info_kariah_tab_page_function(2)
+#1 C:\laragon\www\kariah\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\kariah\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store-info_kariah.php(33): do_action('luq_info_kariah...', 2)
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\views\store\wcfmmp-view-store.php(110): WCFMmp_Template->get_template('store/wcfmmp-vi...', Array)
+#6 C:\laragon\www\kariah\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-template.php(38): includ in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 15
+[12-Jun-2021 06:23:03 UTC] PHP Fatal error:  Uncaught Error: Class 'luq_class_member' not found in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:3
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php(344): require_once()
+#1 C:\laragon\www\kariah\wp-settings.php(377): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-config.php(181): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\kariah\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\kariah\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 3
+[12-Jun-2021 06:23:12 UTC] PHP Fatal error:  Uncaught Error: Class 'luq_class_member' not found in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php:5
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php(344): require_once()
+#1 C:\laragon\www\kariah\wp-settings.php(377): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kariah\wp-config.php(181): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\kariah\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\kariah\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\kariah\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 5
+[12-Jun-2021 06:44:06 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[12-Jun-2021 06:44:06 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[12-Jun-2021 06:59:45 UTC] PHP Parse error:  syntax error, unexpected 'info_kariah' (T_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 06:59:51 UTC] PHP Parse error:  syntax error, unexpected 'info_kariah' (T_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:01:16 UTC] PHP Parse error:  syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:01:58 UTC] PHP Parse error:  syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:02:31 UTC] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:02:57 UTC] PHP Parse error:  syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:05:48 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 73
+[12-Jun-2021 07:05:48 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 73
+[12-Jun-2021 07:08:50 UTC] PHP Notice:  Undefined property: stdClass::$_id in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 53
+[12-Jun-2021 07:11:40 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 74
+[12-Jun-2021 08:25:26 UTC] WordPress database error Duplicate column name 'cct_status' for query ALTER TABLE wp_jet_cct_claim ADD death_cert_claim TEXT,ADD cct_status TEXT; made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, Jet_Engine\Modules\Custom_Content_Types\Rest\Edit_Content_Type->callback, Jet_Engine_Base_Data->edit_item, Jet_Engine\Modules\Custom_Content_Types\Data->after_item_update, Jet_Engine\Modules\Custom_Content_Types\DB->adjust_fields_to_schema, Jet_Engine\Modules\Custom_Content_Types\DB->insert_table_columns
+[12-Jun-2021 08:25:31 UTC] WordPress database error Duplicate column name 'cct_status' for query ALTER TABLE wp_jet_cct_claim ADD death_cert_claim TEXT,ADD cct_status TEXT; made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, Jet_Engine\Modules\Custom_Content_Types\Rest\Edit_Content_Type->callback, Jet_Engine_Base_Data->edit_item, Jet_Engine\Modules\Custom_Content_Types\Data->after_item_update, Jet_Engine\Modules\Custom_Content_Types\DB->adjust_fields_to_schema, Jet_Engine\Modules\Custom_Content_Types\DB->insert_table_columns
+[12-Jun-2021 08:27:12 UTC] WordPress database error Duplicate column name 'cct_status' for query ALTER TABLE wp_jet_cct_claim ADD death_cert_claim TEXT,ADD cct_status TEXT; made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, Jet_Engine\Modules\Custom_Content_Types\Rest\Edit_Content_Type->callback, Jet_Engine_Base_Data->edit_item, Jet_Engine\Modules\Custom_Content_Types\Data->after_item_update, Jet_Engine\Modules\Custom_Content_Types\DB->adjust_fields_to_schema, Jet_Engine\Modules\Custom_Content_Types\DB->insert_table_columns
+[12-Jun-2021 08:30:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 83
+[12-Jun-2021 08:30:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 83
+[12-Jun-2021 08:30:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 83
+[12-Jun-2021 08:30:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 83
+[12-Jun-2021 13:51:41 UTC] PHP Notice:  Undefined index: member_id in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 73
+[12-Jun-2021 13:51:41 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 75
+[12-Jun-2021 13:51:41 UTC] PHP Notice:  Trying to get property 'full_name_member' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 75
+[12-Jun-2021 14:12:09 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[12-Jun-2021 14:12:09 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[12-Jun-2021 15:24:03 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[12-Jun-2021 15:24:03 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[12-Jun-2021 15:28:49 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[12-Jun-2021 15:28:49 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[12-Jun-2021 15:32:32 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[12-Jun-2021 15:32:32 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[12-Jun-2021 15:33:14 UTC] PHP Warning:  require_once(C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus/views/wcfm-views-claim.php): failed to open stream: No such file or directory in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php on line 239
+[12-Jun-2021 15:33:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus/views/wcfm-views-claim.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\wcfm-custom-menus.php on line 239
+[17-Jun-2021 01:31:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\laragon\www\kariah\wp-includes\wp-db.php on line 1635
+[17-Jun-2021 02:15:18 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[17-Jun-2021 02:15:18 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[17-Jun-2021 02:15:28 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[17-Jun-2021 02:15:28 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[17-Jun-2021 14:36:56 UTC] PHP Notice:  Undefined variable: store_id in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 91
+[17-Jun-2021 14:36:56 UTC] PHP Notice:  Undefined index: check_members in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 91
+[17-Jun-2021 14:45:43 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:45:50 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:48:09 UTC] PHP Parse error:  syntax error, unexpected ''.$store_user->get_shop_url().' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 57
+[17-Jun-2021 14:48:09 UTC] PHP Parse error:  syntax error, unexpected ''.$store_user->get_shop_url().' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 57
+[17-Jun-2021 14:48:23 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:48:34 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:48:46 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:48:56 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 95
+[17-Jun-2021 14:49:37 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 14:59:31 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 14:59:37 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:04:23 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[17-Jun-2021 15:04:23 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[17-Jun-2021 15:05:09 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[17-Jun-2021 15:05:09 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[17-Jun-2021 15:06:52 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:06:58 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:28:42 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:28:49 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:50:17 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:50:26 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 15:57:20 UTC] WordPress database error Unknown column 'deceased_name' in 'field list' for query INSERT INTO `wp_jet_cct_claim` (`cct_status`, `deceased_name`, `deceased_ic_no`, `deceased_date`, `deceased_cert`, `heir_name`, `deceased_heir_ic_no`, `deceased_heir_tel_no`, `deceased_heir_address`, `deceased_heir_relation`, `Submit`, `item_id`, `member_id`) VALUES ('claim_request', 0, '900611126459', '2021-06-18', '432432', 'eeeeee', '324324', 'ewew', 'dsds', 'dsdsds', '', '', '1') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:04:04 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:06:06 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:10:46 UTC] WordPress database error Unknown column 'Submit' in 'field list' for query INSERT INTO `wp_jet_cct_claim` (`cct_status`, `full_name_death_claim`, `new_ic_death_claim`, `date_death_claim`, `death_cert_claim`, `name_heir_claim`, `new_ic_number_heir_claim`, `tel_no_heir_claim`, `address_heir_claim`, `relation_claim`, `Submit`, `item_id`, `member_id`) VALUES ('claim_request', 0, '900611126459', '2021-06-23', 'dsdsds', 'dsdsdsds', 'dsds', 'dsd', 'sdsds', 'siblings', '', '', '1') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:12:13 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query INSERT INTO `wp_jet_cct_claim` (`cct_status`, `full_name_death_claim`, `new_ic_death_claim`, `date_death_claim`, `death_cert_claim`, `name_heir_claim`, `new_ic_number_heir_claim`, `tel_no_heir_claim`, `address_heir_claim`, `relation_claim`, `item_id`, `member_id`) VALUES ('claim_request', 0, '900611126459', '2021-06-23', 'dsdsds', 'dsdsdsds', 'dsds', 'dsd', 'sdsds', 'siblings', '', '1') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:20:30 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:20:38 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:21:51 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:22:03 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:25:20 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query UPDATE `wp_jet_cct_claim` SET `cct_status` = 'claim_request', `full_name_death_claim` = 'luqman', `new_ic_death_claim` = '900611126459', `date_death_claim` = '2021-06-19', `death_cert_claim` = 'dsdsds', `name_heir_claim` = 'dsdsdsds', `new_ic_number_heir_claim` = 'dsds', `tel_no_heir_claim` = 'dsd', `address_heir_claim` = 'sdsdsxxxxxx', `relation_claim` = 'siblings', `item_id` = '18', `member_id` = '1' WHERE `_ID` = '18' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:26:11 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query UPDATE `wp_jet_cct_claim` SET `cct_status` = 'claim_request', `full_name_death_claim` = 'luqman', `new_ic_death_claim` = '900611126459', `date_death_claim` = '2021-06-19', `death_cert_claim` = 'dsdsds', `name_heir_claim` = 'dsdsdsds', `new_ic_number_heir_claim` = 'dsds', `tel_no_heir_claim` = 'dsd', `address_heir_claim` = 'sdsds', `relation_claim` = 'siblings', `item_id` = '18', `member_id` = '1' WHERE `_ID` = '18' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:26:26 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query UPDATE `wp_jet_cct_claim` SET `cct_status` = 'claim_request', `full_name_death_claim` = 'luqman', `new_ic_death_claim` = '900611126459', `date_death_claim` = '2021-06-19', `death_cert_claim` = 'dsdsds', `name_heir_claim` = 'dsdsdsds', `new_ic_number_heir_claim` = 'dsds', `tel_no_heir_claim` = 'dsd', `address_heir_claim` = 'sdsdsddddd', `relation_claim` = 'siblings', `item_id` = '18', `member_id` = '1' WHERE `_ID` = '18' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:27:03 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query UPDATE `wp_jet_cct_claim` SET `cct_status` = 'claim_request', `full_name_death_claim` = 'luqman', `new_ic_death_claim` = '900611126459', `date_death_claim` = '2021-06-19', `death_cert_claim` = 'dsdsds', `name_heir_claim` = 'dsdsdsds', `new_ic_number_heir_claim` = 'dsds', `tel_no_heir_claim` = 'dsd', `address_heir_claim` = 'sdsdsxxx', `relation_claim` = 'siblings', `item_id` = '18', `member_id` = '1' WHERE `_ID` = '18' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:27:47 UTC] WordPress database error Unknown column 'item_id' in 'field list' for query UPDATE `wp_jet_cct_claim` SET `cct_status` = 'claim_request', `full_name_death_claim` = 'luqman', `new_ic_death_claim` = '900611126459', `date_death_claim` = '2021-06-19', `death_cert_claim` = 'dsdsds', `name_heir_claim` = 'dsdsdsds', `new_ic_number_heir_claim` = 'dsds', `tel_no_heir_claim` = 'dsd', `address_heir_claim` = 'sdsds', `relation_claim` = 'siblings', `item_id` = '18', `member_id` = '1' WHERE `_ID` = '18' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Handler->process_form, Jet_Engine_Booking_Forms_Notifications->send, do_action('jet-engine/forms/booking/notification/hook'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine_Booking_Forms_Notifications->hook, do_action('jet-engine-booking/claim'), WP_Hook->do_action, WP_Hook->apply_filters, luq_jet_engine_booking_claim
+[17-Jun-2021 16:28:29 UTC] PHP Notice:  Undefined index: item_id in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 143
+[17-Jun-2021 16:29:40 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:29:49 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:31:45 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:31:50 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:35:47 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:35:52 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:36:56 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:37:01 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 98
+[17-Jun-2021 16:45:57 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 16:46:28 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 82
+[17-Jun-2021 16:46:28 UTC] PHP Notice:  Trying to get property 'full_name_member' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 82
+[17-Jun-2021 16:48:57 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 82
+[17-Jun-2021 16:48:57 UTC] PHP Notice:  Trying to get property 'full_name_member' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 82
+[17-Jun-2021 16:56:25 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 16:56:30 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 16:57:37 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 16:57:42 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 17:00:08 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[17-Jun-2021 17:00:14 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[18-Jun-2021 01:44:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\kariah\wp-includes\update.php on line 403
+[18-Jun-2021 01:50:33 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[18-Jun-2021 01:50:37 UTC] PHP Notice:  Undefined offset: 0 in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 32
+[18-Jun-2021 01:50:37 UTC] PHP Notice:  Trying to get property '_ID' of non-object in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 32
+[18-Jun-2021 01:50:37 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 102
+[18-Jun-2021 01:51:19 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:51:58 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 75
+[18-Jun-2021 01:51:58 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 75
+[18-Jun-2021 01:52:24 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:52:27 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:52:53 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:53:19 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:53:27 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 01:57:24 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 01:57:24 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 01:58:13 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 01:58:13 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 01:58:36 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 01:58:36 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 01:58:36 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 01:58:45 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 01:58:45 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 01:59:02 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 01:59:02 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 01:59:15 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 01:59:15 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:01:36 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 02:01:36 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 02:01:36 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 02:01:40 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 41
+[18-Jun-2021 02:01:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 41
+[18-Jun-2021 02:01:47 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 02:01:47 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 02:01:47 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 02:01:51 UTC] PHP Notice:  Undefined variable: check_categories in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 41
+[18-Jun-2021 02:01:51 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 41
+[18-Jun-2021 02:05:53 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:05:53 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:06:11 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:06:11 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:06:19 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:06:19 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:24:34 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:24:34 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:24:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on boolean in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:31
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager('', '', 'wc_fronte in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 31
+[18-Jun-2021 02:25:26 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:25:26 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:25:35 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:25:35 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:25:45 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:25:45 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:39:03 UTC] PHP Notice:  Undefined index: shipping_class in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager-ultimate\controllers\products\wcfmu-controller-products-manage.php on line 107
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->validate_checkout, do_action('woocommerce_after_checkout_validation'), WP_Hook->do_action, WP_Hook->apply_filters, woocommerce_after_checkout_validation_luq_member, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:07 UTC] PHP Notice:  Undefined index: dependent_repeat_member in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\checkout.php on line 179
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, WC_Checkout->create_order, do_action('woocommerce_checkout_create_order'), WP_Hook->do_action, WP_Hook->apply_filters, WCOA\classes\com\Order->on_checkout_order_created, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Subscriptions_Checkout::process_checkout, WC_Subscriptions_Checkout::create_subscription, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:07 UTC] id was called incorrectly. Product properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Subscriptions_Checkout::process_checkout, WC_Subscriptions_Checkout::create_subscription, WC_Order->save, WC_Abstract_Order->save, WC_Abstract_Order->save_items, WC_Data->save, WC_Data_Store->create, Abstract_WC_Order_Item_Type_Data_Store->create, do_action('woocommerce_new_order_item'), WP_Hook->do_action, WP_Hook->apply_filters, wdm_add_values_to_order_item_metacheckout_luq, WC_Product_Subscription->__get, WC_Abstract_Legacy_Product->__get, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jun-2021 02:40:16 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[18-Jun-2021 02:40:16 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[18-Jun-2021 02:40:17 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[18-Jun-2021 02:40:17 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[18-Jun-2021 02:40:17 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 516
+[18-Jun-2021 02:40:17 UTC] PHP Notice:  Undefined index: pagename in C:\laragon\www\kariah\wp-content\plugins\woocommerce-order-approval\classes\com\Order.php on line 519
+[18-Jun-2021 02:40:44 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 02:40:44 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 02:40:44 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 02:40:55 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:40:55 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:41:43 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:41:43 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:42:19 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:42:19 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:43:14 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:43:14 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:44:38 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:44:38 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:49:03 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:49:03 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:49:11 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:49:11 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:49:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on boolean in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:31
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_frontend_manager('', '', 'wc_fronte in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 31
+[18-Jun-2021 02:49:57 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:49:57 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:52:21 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:52:21 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:52:41 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:52:41 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:56:19 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:56:19 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 02:59:48 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 02:59:48 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:03:15 UTC] PHP Parse error:  syntax error, unexpected 'deb' (T_STRING) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 47
+[18-Jun-2021 03:04:30 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:04:30 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:06:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 49
+[18-Jun-2021 03:06:54 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:06:54 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:09:19 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 03:09:19 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 03:09:19 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 03:09:35 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:09:35 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:11:09 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:11:09 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:11:13 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 49
+[18-Jun-2021 03:15:53 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 03:15:53 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 03:15:53 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 03:15:59 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:15:59 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:17:30 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 03:17:30 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 03:17:30 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 03:17:40 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 27
+[18-Jun-2021 03:17:40 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\controllers\wcfm-controller-ahli.php on line 28
+[18-Jun-2021 03:17:43 UTC] PHP Notice:  order_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:17:44 UTC] PHP Notice:  order_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:17:45 UTC] PHP Notice:  order_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:17:47 UTC] PHP Notice:  order_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:18:18 UTC] PHP Notice:  post_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:18:20 UTC] PHP Notice:  post_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:18:21 UTC] PHP Notice:  post_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:18:23 UTC] PHP Notice:  post_type was called <strong>incorrectly</strong>. Order properties should not be accessed directly. Backtrace: require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/wc-frontend-manager/templates/classic/wcfm-content.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, flatsome_contentfix, do_shortcode, preg_replace_callback, do_shortcode_tag, WCFM_Shortcode->wc_frontend_manager, WCFM_Shortcode->shortcode_wrapper, WCFM_Frontend_Manager_Shortcode::output, WCFM_Library->load_views, WCFM_Template->get_template, include('/plugins/wc-frontend-manager/views/orders/wcfm-view-orders-details.php'), WC_Abstract_Legacy_Order->__get, wc_doing_it_wrong Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.0.) in C:\laragon\www\kariah\wp-includes\functions.php on line 5229
+[18-Jun-2021 03:18:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::post_type() in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php:47
+Stack trace:
+#0 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-template.php(38): include()
+#1 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-library.php(960): WCFM_Template->get_template('orders/wcfm-vie...')
+#2 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\includes\shortcodes\class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-orders-det...')
+#3 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(114): WCFM_Frontend_Manager_Shortcode::output('')
+#4 C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\core\class-wcfm-shortcode.php(46): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 C:\laragon\www\kariah\wp-includes\shortcodes.php(343): WCFM_Shortcode->wc_f in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\views\orders\wcfm-view-orders-details.php on line 47
+[18-Jun-2021 08:37:27 UTC] PHP Notice:  Undefined index: length in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 23
+[18-Jun-2021 08:37:27 UTC] PHP Notice:  Undefined index: start in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 24
+[18-Jun-2021 08:37:27 UTC] PHP Notice:  Undefined index: draw in C:\laragon\www\kariah\wp-content\plugins\wc-frontend-manager\controllers\orders\wcfm-controller-wcfmmarketplace-orders.php on line 152
+[18-Jun-2021 09:00:54 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 09:00:56 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 09:01:01 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 09:01:08 UTC] PHP Notice:  Undefined variable: check in C:\laragon\www\kariah\wp-content\plugins\wcfm-custom-menus\global\store\info_kariah_tab.php on line 103
+[18-Jun-2021 14:31:56 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in C:\laragon\www\kariah\wp-content\plugins\elementor\modules\landing-pages\module.php on line 123

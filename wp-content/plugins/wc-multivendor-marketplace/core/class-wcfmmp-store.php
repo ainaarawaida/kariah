@@ -131,6 +131,7 @@ class WCFMmp_Store {
 		$store_tabs =  array(
 													"products"   => __( 'Products', 'wc-multivendor-marketplace' ),
 													"articles"   => __( 'Articles', 'wc-multivendor-marketplace' ),
+													"info_kariah"   => __( 'Info Kariah', 'wc-multivendor-marketplace' ),
 													"about"      => __( 'About', 'wc-multivendor-marketplace' ),
 													"policies"   => __( 'Policies', 'wc-multivendor-marketplace' ),
 													"reviews"    => __( 'Reviews', 'wc-multivendor-marketplace' ),
@@ -384,6 +385,11 @@ class WCFMmp_Store {
 		global $WCFMmp;
 		return $this->get_shop_url() . $WCFMmp->wcfmmp_rewrite->store_endpoint('articles');
 	}
+
+	public function get_info_kariah_url() {
+		global $WCFMmp;
+		return $this->get_shop_url() . $WCFMmp->wcfmmp_rewrite->store_endpoint('info_kariah');
+	}
 	
 	/**
 	 * Get the store tabs URL
@@ -416,6 +422,10 @@ class WCFMmp_Store {
 			
 			case 'articles':
 				$store_tab_url = $this->get_articles_url();
+			break;
+
+			case 'info_kariah':
+				$store_tab_url = $this->get_info_kariah_url();
 			break;
 			
 			default:

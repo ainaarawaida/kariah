@@ -36,16 +36,19 @@ div.jet-form-row button.jet-form-repeater__new{
 <script>
 jQuery( document ).ready( function( $ ) {
 
-
+  
   if(Cookies.get('setbahasaweb') == null){
+    
     $(window).on('load', function() {
       $( 'div.switcher.notranslate div.option a.nturl:contains("Malay")' ).click();
       Cookies.set('setbahasaweb', 'sudah');
 
-        $(window).on('load', function() {
-            window.location.reload();
-          
-      });
+      setTimeout(function() {
+                  window.location.reload();
+        }, 200 );
+
+
+       
 
     });
 

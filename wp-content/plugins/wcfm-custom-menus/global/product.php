@@ -23,8 +23,8 @@ function after_wcfm_product_submit_redirect($redirect_to){
   add_action('wp_footer', 'productluqjs');
   function productluqjs() {
    global $wp, $product ;
-    
-    if(isset($wp->query_vars['post_type']) && $wp->query_vars['post_type'] == 'product'){
+    //deb($wp);exit();
+    if(isset($wp->query_vars['post_type']) && $wp->query_vars['post_type'] == 'product' && !isset($wp->query_vars['kariah'])){
       $product_id = $product->get_id() ; 
       ?>
       

@@ -105,6 +105,10 @@ get_header( 'shop' );
 						  case 'articles':
 								$WCFMmp->template->get_template( 'store/wcfmmp-view-store-articles.php', array( 'store_user' => $store_user, 'store_info' => $store_info ) );
 								break;
+
+						case 'info_kariah':
+							$WCFMmp->template->get_template( 'store/wcfmmp-view-store-info_kariah.php', array( 'store_user' => $store_user, 'store_info' => $store_info ) );
+							break;
 								
 							default:
 								$WCFMmp->template->get_template( apply_filters( 'wcfmmp_store_default_template', apply_filters( 'wcfmp_store_default_template', 'store/wcfmmp-view-store-products.php', $store_tab ), $store_tab ), array( 'store_user' => $store_user, 'store_info' => $store_info ), '', apply_filters( 'wcfmp_store_default_template_path', '', $store_tab ) );
